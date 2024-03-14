@@ -1,0 +1,65 @@
+{
+    
+    
+  "Templiers" : {
+          "ravitos": {
+                  "1": {
+                      "nom":"Peyreleau",
+                      "dist": 22.8
+                      },
+              
+                  "2" : {
+                      "nom":"St André de Vézines",
+                      "dist": 34.9
+                      },
+                  "3": {
+                      "nom":"La Roque Ste Marguerite",
+                      "dist": 45.6
+                      },
+                  "4": {
+                      "nom":"La Salvage",
+                      "dist": 55.6
+                      },
+                  "5" : {
+                      "nom":"Mas de Bru",
+                      "dist": 64.1
+                      },
+                  "6": {
+                      "nom":"Massebiau",
+                      "dist": 69.5
+                      },
+          
+                  "7": {
+                      "nom":"Ferme du Cade",
+                      "dist": 72.7
+                      }
+          },
+          "longueur": 80.9,
+          "deniiiv": 3500
+          },
+      
+
+  "CoteRotie" : {
+      "ravitos": {
+          "1": {
+              "nom":"Ravito 1",
+              "dist": 13
+          },
+          "2": {
+              "nom":"Ravito 2",
+              "dist": 22
+          },
+          "3": {
+              "nom":"Ravito 3",
+              "dist": 28
+          },
+          "4": {
+              "nom":"Ravito 4",
+              "dist": 36
+          }
+
+          },
+      "longueur": 45,
+      "deniiiv": 2500
+      }
+}

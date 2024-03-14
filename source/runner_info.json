@@ -1,0 +1,306 @@
+{
+    "maximebascon": {
+        "infos": {
+            "nom": "Bascon",
+            "prenom": "Maxime",
+            "age": 26,
+            "cote": 610,
+            "nationality": "France",
+            "Team": "Les Ratons Laveurs",
+            "personalized_message":"Good luck for this race, I'm 100% that you will feel strong"
+        },
+        "Race1": {
+            "template": "trail",
+            "course": "Grand Raid des Templiers",
+            "profil_split": 108,
+            "objectif_heure": 10,
+            "objectif_minute": 30,
+            "objectif_seconde": 0,
+            "threshold": 8,
+            "a_gradient": 0,
+            "a_split": 0,
+            "a_drift": 0,
+            "a_vent": 0,
+            "a_temp": 1,
+            "previous_place": 11
+        },
+        "Race2": {
+            "template": "trail",
+            "course": "saintelyon",
+            "profil_split": -8,
+            "objectif_heure": 8,
+            "objectif_minute": 0,
+            "objectif_seconde": 0,
+            "threshold": 5,
+            "a_gradient": 15,
+            "a_split": 1,
+            "a_drift": 2,
+            "a_vent": 0,
+            "a_temp": 0,
+            "previous_place": 115
+        },
+        "Race": {
+            "template": "trail",
+            "course": "Ecotrail",
+            "profil_split": -8,
+            "objectif_heure": 7,
+            "objectif_minute": 30,
+            "objectif_seconde": 0,
+            "threshold": 4,
+            "a_gradient": 15,
+            "a_split": 1,
+            "a_drift": 2,
+            "a_vent": 0,
+            "a_temp": 0,
+            "previous_place": 60
+        }
+    },
+    "simonpriou": {
+        "infos": {
+            "nom": "Priou",
+            "prenom": "Simon",
+            "age": 30,
+            "cote": 610,
+            "nationality": "France",
+            "Team": "DataBird"
+        },
+        "Race": {
+            "template": "trail",
+            "course": "Sainté Lyon",
+            "profil_split": 96,
+            "objectif_heure": 12,
+            "objectif_minute": 30,
+            "objectif_seconde": 0,
+            "threshold": 8,
+            "a_gradient": 10,
+            "a_split": 0.5,
+            "a_drift": 1,
+            "a_vent": 0,
+            "a_temp": 0,
+            "previous_place": 11
+        }
+    },
+    "solangejesus": {
+        "infos": {
+            "nom": "Jesus",
+            "prenom": "Solange",
+            "age": 36,
+            "cote": 259,
+            "nationality": "Portugal",
+            "Team": "Puma",
+            "personalized_message":"Good luck for this race, I'm 100% that you will qualify for Olympics"
+        },
+        "Race1": {
+            "template": "marathon",
+            "course": "New-York Marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 26,
+            "objectif_seconde": 32,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 11
+        },
+        "Race": {
+            "template": "marathon",
+            "course": "Sevilla marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 26,
+            "objectif_seconde": 49,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 9
+        }
+    },
+    "josephmestrallet": {
+        "infos": {
+            "nom": "Mestrallet",
+            "prenom": "Joseph",
+            "age": 26,
+            "cote": 714,
+            "nationality": "France",
+            "Team": "Enduraw",
+            "personalized_message": "C'est de la balle ton algo"
+        },
+        "Race": {
+            "template": "trail",
+            "course": "saintelyon",
+            "profil_split": 0,
+            "objectif_heure": 2,
+            "objectif_minute": 45,
+            "objectif_seconde": 0,
+            "threshold": 1,
+            "a_gradient": 10,
+            "a_split": 0.5,
+            "a_drift": 1,
+            "a_vent": 0,
+            "a_temp": 0,
+            "previous_place": 11
+        }
+    },
+    "guillaumeadam": {
+        "infos": {
+            "nom": "Adam",
+            "prenom": "Guillaume",
+            "age": 33,
+            "cote": 771,
+            "nationality": "France",
+            "Team": "RunMotion Coach"
+        },
+        "Race": {
+            "template": "marathon",
+            "course": "New-York Marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 21,
+            "objectif_seconde": 40,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 16
+        }
+    },
+    "lionelkahn": {
+        "infos": {
+            "nom": "Kahn",
+            "prenom": "Lionel",
+            "age": 37,
+            "cote": 0,
+            "nationality": "France",
+            "Team": "Goldman Sachs"
+        },
+        "Race": {
+            "template": "route",
+            "course": "semi de boulogne",
+            "profil_split": 5,
+            "objectif_heure": 1,
+            "objectif_minute": 14,
+            "objectif_seconde": 0,
+            "threshold": 0.2,
+            "a_gradient": 10,
+            "a_split": 1,
+            "a_drift": 1,
+            "a_vent": 0,
+            "a_temp": 0,
+            "previous_place": 149
+        }
+    },
+    "danielmateo": {
+        "infos": {
+            "nom": "Mateo Angulo",
+            "prenom": "Daniel",
+            "age": 34,
+            "cote": 0,
+            "nationality": "Spain",
+            "Team": "Puma"
+        },
+        "Race": {
+            "template": "marathon",
+            "course": "Marathon de Valence",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 8,
+            "objectif_seconde": 10,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 21
+        }
+    },
+    "anaisquemener": {
+        "infos": {
+            "nom": "Quemener",
+            "prenom": "Anaïs",
+            "age": 32,
+            "cote": 382,
+            "nationality": "French",
+            "Team": "Salomon",
+            "personalized_message":"Bon courage Anaïs, donne tout. Et si c'est pas maintenant ce sera LA28"
+        },
+
+        "Race": {
+            "template": "marathon",
+            "course": "Sevilla marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 26,
+            "objectif_seconde": 49,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 9
+        }
+    },
+    "melinerollin": {
+        "infos": {
+            "nom": "Quemener",
+            "prenom": "Anaïs",
+            "age": 25,
+            "cote": 382,
+            "nationality": "French",
+            "Team": "Kiprun",
+            "personalized_message":"Allez Méline ! tu vas chercher Manon"
+        },
+
+        "Race": {
+            "template": "marathon",
+            "course": "Sevilla marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 25,
+            "objectif_seconde": 47,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 9
+        }
+    },
+    "duncanperillat": {
+        "infos": {
+            "nom": "Perillat",
+            "prenom": "Duncan",
+            "age": 30,
+            "cote": 382,
+            "nationality": "French",
+            "Team": "Hoka",
+            "personalized_message":"Bon courage Duncan avec le magnifique stage que tu as fait ça va passer tout seul, éclate toi bien"
+        },
+
+        "Race": {
+            "template": "marathon",
+            "course": "Sevilla marathon",
+            "profil_split": 100,
+            "objectif_heure": 2,
+            "objectif_minute": 6,
+            "objectif_seconde": 45,
+            "threshold": 0.5,
+            "a_gradient": 1,
+            "a_split": 0,
+            "a_drift": 1,
+            "a_vent": 1,
+            "a_temp": 0,
+            "previous_place": 8
+        }
+    }
+}

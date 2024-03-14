@@ -1,0 +1,52 @@
+{
+    
+    "Unités": {
+
+        "kcal":"kcal",
+        "nrj":"kJoules",
+        "glucide":"g",
+        "poids":"g",
+        "caf":"mg",
+        "sel":"mg",
+        "prix":"€"
+    },
+    
+    "Maurten": {
+        "solide": {
+            "gel_100": {
+                "nom": "gel_100",
+                "kcal": 100,
+                "nrj": 425,
+                "glucide":25,
+                "poids":40,
+                "caf":0,
+                "sel":55,
+                "prix":3.9
+            },
+            "gel_100_caf": {
+                "nom": "gel_100",
+                "kcal": 100,  
+                "nrj": 425, 
+                "glucide":25,
+                "poids":40,
+                "caf":100,
+                "sel":55,
+                "prix":3.9
+            },
+            "gel_160": {
+                "nom": "gel_160",
+                "kcal": 162.5,  
+                "nrj": 691, 
+                "glucide":40,
+                "poids":64,
+                "caf":0,
+                "sel":81.2,
+                "prix":4.4
+            }
+        },
+        "ratio_fructose": "0.8:1",
+        "praticité": 3500
+
+    }
+
+}

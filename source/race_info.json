@@ -1,0 +1,462 @@
+{
+    "Grand Raid des Templiers": {
+        "ravitos": {
+            "1": {
+                "nom": "Peyreleau",
+                "dist": 22.8
+            },
+            "2": {
+                "nom": "St André de Vézines",
+                "dist": 34.9
+            },
+            "3": {
+                "nom": "La Roque Ste Marguerite",
+                "dist": 45.6
+            },
+            "4": {
+                "nom": "La Salvage",
+                "dist": 55.6
+            },
+            "5": {
+                "nom": "Mas de Bru",
+                "dist": 64.1
+            },
+            "6": {
+                "nom": "Massebiau",
+                "dist": 69.5
+            },
+            "7": {
+                "nom": "Ferme du Cade",
+                "dist": 72.7
+            },
+            "8": {
+                "nom": "Finish",
+                "dist": 80.9
+            }
+        },
+        "longueur_off": 80.9,
+        "deniiiv_off": 3500,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-03-17"
+    },
+    "CoteRotie": {
+        "ravitos": {
+            "1": {
+                "nom": "Mairie de St Cyr",
+                "dist": 13
+            },
+            "2": {
+                "nom": "Cave Burgaud",
+                "dist": 22
+            },
+            "3": {
+                "nom": "Cave Gallet",
+                "dist": 28
+            },
+            "4": {
+                "nom": "Tupin et Semons",
+                "dist": 36
+            },
+            "5": {
+                "nom": "Finish",
+                "dist": 45
+            }
+        },
+        "longueur_off": 45,
+        "deniiiv_off": 2500,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2023-11-05"
+    },
+    "Bay To Breakers": {
+        "ravitos": {
+            "1": {
+                "nom": "Mairie de St Cyr",
+                "dist": 13
+            }
+        },
+        "longueur_off": 45,
+        "deniiiv_off": 2500,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2023-11-05"
+    },
+    "Paris Brest": {
+        "ravitos": {
+            "1": {
+                "nom": "Mairie de St Cyr",
+                "dist": 13
+            }
+        },
+        "longueur_off": 45,
+        "deniiiv_off": 2500,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 15,
+        "start_time": "2023-11-05"
+    },
+    "New-York Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "water"
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "water"
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1,
+                "ravito": "water"
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25,
+                "ravito": "226 gel cola"
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30,
+                "ravito": "water"
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35,
+                "ravito": "226 gel cola"
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40,
+                "ravito": "water"
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.34,
+                "ravito": "water"
+            }
+        },
+        "longueur_off": 42.195,
+        "deniiiv_off": 280,
+        "record_feminin": "02h22'31",
+        "record_masculin": "2h05'06",
+        "date_de_creation": 1971,
+        "zoom_de_la_carte": 11,
+        "start_time": "2024-03-17"
+    },
+    "semi de boulogne": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "Pâte de fruit"
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "water + iso"
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "Pâte de fruit"
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "water + iso"
+            },
+            "5": {
+                "nom": "finish",
+                "dist": 21.1,
+                "ravito": "water"
+            }
+        },
+        "longueur_off": 21.1,
+        "deniiiv_off": 116,
+        "record_feminin": "XX",
+        "record_masculin": "X",
+        "date_de_creation": 0,
+        "zoom_de_la_carte": 13,
+        "start_time": "2023-11-26"
+    },
+    "saintelyon": {
+        "ravitos": {
+            "1": {
+                "nom": "St Christo en Jarez",
+                "dist": 19,
+                "ravito": "2 barres et 3 gels"
+            },
+            "2": {
+                "nom": "Sainte Catherine",
+                "dist": 33.7,
+                "ravito": "3 barres et 1 gel"
+            },
+            "3": {
+                "nom": "Saint Genou",
+                "dist": 47.1,
+                "ravito": "1 barre et 1 gel"
+            },
+            "4": {
+                "nom": "Soucieu",
+                "dist": 58.5,
+                "ravito": "2 barres et 2 gels dont 1 caf"
+            },
+            "5": {
+                "nom": "Chaponost",
+                "dist": 65.3,
+                "ravito": "1 gel caf et une barre"
+            },
+            "6": {
+                "nom": "Finish",
+                "dist": 78.3,
+                "ravito": "3 gel dont 1 caf"
+            }
+        },
+        "longueur_off": 78.3,
+        "deniiiv_off": 2296,
+        "record_feminin": "XX",
+        "record_masculin": "XX",
+        "date_de_creation": 1951,
+        "zoom_de_la_carte": 11,
+        "start_time": "2024-03-17",
+        "start_hour": "23"
+    },
+    "Marathon de Valence": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "water"
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "water"
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "226 gel Stawberries Banan"
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1,
+                "ravito": "water"
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25,
+                "ravito": "226 gel cola"
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30,
+                "ravito": "water"
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35,
+                "ravito": "226 gel cola"
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40,
+                "ravito": "water"
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195,
+                "ravito": "water"
+            }
+        },
+        "longueur_off": 0,
+        "deniiiv_off": 0,
+        "record_feminin": "02h22'31",
+        "record_masculin": "2h05'06",
+        "date_de_creation": 1971,
+        "zoom_de_la_carte": 11,
+        "start_time": "2024-02-07"
+    },
+    "Olympics Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "water"
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "water"
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1,
+                "ravito": "water"
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25,
+                "ravito": "226 gel cola"
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30,
+                "ravito": "water"
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35,
+                "ravito": "226 gel cola"
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40,
+                "ravito": "water"
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195,
+                "ravito": "water"
+            }
+        },
+        "longueur_off": 0,
+        "deniiiv_off": 0,
+        "record_feminin": "02h22'31",
+        "record_masculin": "2h05'06",
+        "date_de_creation": -50,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-03-17"
+    },
+    "Sevilla marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "water"
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "water"
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "226 gel Stawberries Banana"
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1,
+                "ravito": "water"
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25,
+                "ravito": "226 gel cola"
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30,
+                "ravito": "water"
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35,
+                "ravito": "226 gel cola"
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40,
+                "ravito": "water"
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195,
+                "ravito": "water"
+            }
+        },
+        "longueur_off": 42.195,
+        "deniiiv_off": 280,
+        "record_feminin": "02h22'31",
+        "record_masculin": "2h05'06",
+        "date_de_creation": 1971,
+        "zoom_de_la_carte": 11,
+        "start_time": "2024-03-17"
+    },
+
+
+    "Ecotrail": {
+        "ravitos": {
+            "1": {
+                "nom": "Buc",
+                "dist": 24.3
+            },
+            "2": {
+                "nom": "Meudon",
+                "dist": 47.3
+            },
+            "3": {
+                "nom": "Chaville",
+                "dist": 57.7
+            },
+            "4": {
+                "nom": "Saint Cloud",
+                "dist": 71.0
+            },
+
+            "5": {
+                "nom": "Finish",
+                "dist": 82.0
+            }
+        },
+        "longueur_off": 82,
+        "deniiiv_off": 1245,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-03-17"
+    }
+}
