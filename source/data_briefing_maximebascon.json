@@ -18,36 +18,46 @@
         "station_time": "02:06:13",
         "station_distance": 24.3,
         "gap_aid_station": 24.3,
-        "nutrition": "XXX",
-        "hydration": "XXX"
+        "nutrition": 168,
+        "hydration": 1262,
+        "nombre_de_bidon": 3,
+        "nombre_gel": 0
       },
       "Meudon": {
         "station_time": "04:10:17",
         "station_distance": 47.3,
         "gap_aid_station": 23.0,
-        "nutrition": "XXX",
-        "hydration": "XXX"
+        "nutrition": 165,
+        "hydration": 1241,
+        "nombre_de_bidon": 3,
+        "nombre_gel": 1
       },
       "Chaville": {
         "station_time": "05:06:23",
         "station_distance": 57.7,
         "gap_aid_station": 10.4,
-        "nutrition": "XXX",
-        "hydration": "XXX"
+        "nutrition": 75,
+        "hydration": 561,
+        "nombre_de_bidon": 1,
+        "nombre_gel": 3
       },
       "Saint Cloud": {
         "station_time": "06:26:57",
         "station_distance": 71.0,
         "gap_aid_station": 13.3,
-        "nutrition": "XXX",
-        "hydration": "XXX"
+        "nutrition": 107,
+        "hydration": 806,
+        "nombre_de_bidon": 2,
+        "nombre_gel": 2
       },
       "Finish": {
         "station_time": "07:29:59",
         "station_distance": 82.0,
         "gap_aid_station": 11.0,
-        "nutrition": "XXX",
-        "hydration": "XXX"
+        "nutrition": 84,
+        "hydration": 630,
+        "nombre_de_bidon": 1,
+        "nombre_gel": 4
       }
     },
     "total_distance": 82776.58,
@@ -76,9 +86,14 @@
         "coef_temp": 1,
         "coef_global": 0.9052393018635034,
         "coef_global_normalise": 0.9002046198802313,
+        "temps_seconde_segment": 293.6287429125338,
         "adjusted_time_final": "00:04:53",
         "total_time_final": "00:04:53",
-        "total_time_brut": "00:05:26"
+        "total_time_brut": "00:05:26",
+        "gramme_per_km": 6.53,
+        "mL_per_km": 48.94,
+        "mL_total": 48.94,
+        "gramme_total": 6.53
       },
       "2": {
         "length": 1058.8996242927794,
@@ -97,9 +112,14 @@
         "coef_temp": 1,
         "coef_global": 0.8889552252317916,
         "coef_global_normalise": 0.8840111106234259,
+        "temps_seconde_segment": 288.34674406314906,
         "adjusted_time_final": "00:04:48",
         "total_time_final": "00:09:41",
-        "total_time_brut": "00:10:52"
+        "total_time_brut": "00:10:52",
+        "gramme_per_km": 6.41,
+        "mL_per_km": 48.06,
+        "mL_total": 97.0,
+        "gramme_total": 12.93
       },
       "3": {
         "length": 943.6212985071519,
@@ -118,9 +138,14 @@
         "coef_temp": 1,
         "coef_global": 0.9164536012159759,
         "coef_global_normalise": 0.9113565485084226,
+        "temps_seconde_segment": 297.2662789924773,
         "adjusted_time_final": "00:04:57",
         "total_time_final": "00:14:39",
-        "total_time_brut": "00:16:18"
+        "total_time_brut": "00:16:18",
+        "gramme_per_km": 6.61,
+        "mL_per_km": 49.54,
+        "mL_total": 146.54,
+        "gramme_total": 19.54
       },
       "4": {
         "length": 1024.2939140974281,
@@ -139,9 +164,14 @@
         "coef_temp": 1,
         "coef_global": 0.9174051142605,
         "coef_global_normalise": 0.9123027695096471,
+        "temps_seconde_segment": 297.5749173586567,
         "adjusted_time_final": "00:04:57",
         "total_time_final": "00:19:36",
-        "total_time_brut": "00:21:44"
+        "total_time_brut": "00:21:44",
+        "gramme_per_km": 6.61,
+        "mL_per_km": 49.6,
+        "mL_total": 196.14,
+        "gramme_total": 26.15
       },
       "5": {
         "length": 1029.9392407723717,
@@ -160,9 +190,14 @@
         "coef_temp": 1,
         "coef_global": 0.9196290754764758,
         "coef_global_normalise": 0.9145143616896756,
+        "temps_seconde_segment": 298.2962944959384,
         "adjusted_time_final": "00:04:58",
         "total_time_final": "00:24:35",
-        "total_time_brut": "00:27:10"
+        "total_time_brut": "00:27:10",
+        "gramme_per_km": 6.63,
+        "mL_per_km": 49.72,
+        "mL_total": 245.85,
+        "gramme_total": 32.78
       },
       "6": {
         "length": 944.6978409895095,
@@ -181,9 +216,14 @@
         "coef_temp": 1,
         "coef_global": 0.9218529293083473,
         "coef_global_normalise": 0.9167258470828396,
+        "temps_seconde_segment": 299.0176368014806,
         "adjusted_time_final": "00:04:59",
         "total_time_final": "00:29:34",
-        "total_time_brut": "00:32:37"
+        "total_time_brut": "00:32:37",
+        "gramme_per_km": 6.64,
+        "mL_per_km": 49.84,
+        "mL_total": 295.69,
+        "gramme_total": 39.43
       },
       "7": {
         "length": 993.0770058195021,
@@ -202,9 +242,14 @@
         "coef_temp": 1,
         "coef_global": 0.9235945024227815,
         "coef_global_normalise": 0.918457734065923,
+        "temps_seconde_segment": 299.5825436976228,
         "adjusted_time_final": "00:04:59",
         "total_time_final": "00:34:33",
-        "total_time_brut": "00:38:03"
+        "total_time_brut": "00:38:03",
+        "gramme_per_km": 6.66,
+        "mL_per_km": 49.93,
+        "mL_total": 345.62,
+        "gramme_total": 46.08
       },
       "8": {
         "length": 1015.4184523730897,
@@ -223,9 +268,14 @@
         "coef_temp": 1,
         "coef_global": 0.9282391414864447,
         "coef_global_normalise": 0.9230765409760722,
+        "temps_seconde_segment": 301.0891061355752,
         "adjusted_time_final": "00:05:01",
         "total_time_final": "00:39:34",
-        "total_time_brut": "00:43:29"
+        "total_time_brut": "00:43:29",
+        "gramme_per_km": 6.69,
+        "mL_per_km": 50.18,
+        "mL_total": 395.8,
+        "gramme_total": 52.77
       },
       "9": {
         "length": 980.3465307070709,
@@ -244,9 +294,14 @@
         "coef_temp": 1,
         "coef_global": 0.9273203131660037,
         "coef_global_normalise": 0.9221628229158476,
+        "temps_seconde_segment": 300.7910695786912,
         "adjusted_time_final": "00:05:00",
         "total_time_final": "00:44:35",
-        "total_time_brut": "00:48:55"
+        "total_time_brut": "00:48:55",
+        "gramme_per_km": 6.68,
+        "mL_per_km": 50.13,
+        "mL_total": 445.93,
+        "gramme_total": 59.46
       },
       "10": {
         "length": 1002.4112520387911,
@@ -265,9 +320,14 @@
         "coef_temp": 1,
         "coef_global": 0.9467118574614588,
         "coef_global_normalise": 0.941446516990382,
+        "temps_seconde_segment": 307.0810249119228,
         "adjusted_time_final": "00:05:07",
         "total_time_final": "00:49:42",
-        "total_time_brut": "00:54:21"
+        "total_time_brut": "00:54:21",
+        "gramme_per_km": 6.82,
+        "mL_per_km": 51.18,
+        "mL_total": 497.11,
+        "gramme_total": 66.28
       },
       "11": {
         "length": 1039.0044134066668,
@@ -286,9 +346,14 @@
         "coef_temp": 1,
         "coef_global": 0.9383413743728095,
         "coef_global_normalise": 0.9331225881336478,
+        "temps_seconde_segment": 304.36592579743325,
         "adjusted_time_final": "00:05:04",
         "total_time_final": "00:54:47",
-        "total_time_brut": "00:59:47"
+        "total_time_brut": "00:59:47",
+        "gramme_per_km": 6.76,
+        "mL_per_km": 50.73,
+        "mL_total": 547.84,
+        "gramme_total": 73.05
       },
       "12": {
         "length": 996.8459562690985,
@@ -307,9 +372,14 @@
         "coef_temp": 1,
         "coef_global": 0.9000229972333893,
         "coef_global_normalise": 0.8950173268439426,
+        "temps_seconde_segment": 291.93675166995723,
         "adjusted_time_final": "00:04:51",
         "total_time_final": "00:59:38",
-        "total_time_brut": "01:05:14"
+        "total_time_brut": "01:05:14",
+        "gramme_per_km": 6.49,
+        "mL_per_km": 48.66,
+        "mL_total": 596.5,
+        "gramme_total": 79.53
       },
       "13": {
         "length": 965.6595700641602,
@@ -328,9 +398,14 @@
         "coef_temp": 1,
         "coef_global": 0.9352550993765316,
         "coef_global_normalise": 0.9300534781158316,
+        "temps_seconde_segment": 303.36484349182194,
         "adjusted_time_final": "00:05:03",
         "total_time_final": "01:04:42",
-        "total_time_brut": "01:10:40"
+        "total_time_brut": "01:10:40",
+        "gramme_per_km": 6.74,
+        "mL_per_km": 50.56,
+        "mL_total": 647.06,
+        "gramme_total": 86.27
       },
       "14": {
         "length": 1019.5354577925416,
@@ -349,9 +424,14 @@
         "coef_temp": 1,
         "coef_global": 0.9144118141355698,
         "coef_global_normalise": 0.9093261172635468,
+        "temps_seconde_segment": 296.6039929290237,
         "adjusted_time_final": "00:04:56",
         "total_time_final": "01:09:38",
-        "total_time_brut": "01:16:06"
+        "total_time_brut": "01:16:06",
+        "gramme_per_km": 6.59,
+        "mL_per_km": 49.43,
+        "mL_total": 696.49,
+        "gramme_total": 92.87
       },
       "15": {
         "length": 982.1434627451094,
@@ -370,9 +450,14 @@
         "coef_temp": 1,
         "coef_global": 0.9172755015105041,
         "coef_global_normalise": 0.9121738776286809,
+        "temps_seconde_segment": 297.5328754049231,
         "adjusted_time_final": "00:04:57",
         "total_time_final": "01:14:36",
-        "total_time_brut": "01:21:32"
+        "total_time_brut": "01:21:32",
+        "gramme_per_km": 6.61,
+        "mL_per_km": 49.59,
+        "mL_total": 746.08,
+        "gramme_total": 99.48
       },
       "16": {
         "length": 1010.7527006364155,
@@ -391,9 +476,14 @@
         "coef_temp": 1,
         "coef_global": 0.9412077215013339,
         "coef_global_normalise": 0.9359729934595836,
+        "temps_seconde_segment": 305.295671006647,
         "adjusted_time_final": "00:05:05",
         "total_time_final": "01:19:41",
-        "total_time_brut": "01:26:58"
+        "total_time_brut": "01:26:58",
+        "gramme_per_km": 6.78,
+        "mL_per_km": 50.88,
+        "mL_total": 796.96,
+        "gramme_total": 106.26
       },
       "17": {
         "length": 1027.9190960571173,
@@ -412,9 +502,14 @@
         "coef_temp": 1,
         "coef_global": 0.9884473007747263,
         "coef_global_normalise": 0.9829498397095915,
+        "temps_seconde_segment": 320.61857871647453,
         "adjusted_time_final": "00:05:20",
         "total_time_final": "01:25:02",
-        "total_time_brut": "01:32:25"
+        "total_time_brut": "01:32:25",
+        "gramme_per_km": 7.12,
+        "mL_per_km": 53.44,
+        "mL_total": 850.4,
+        "gramme_total": 113.39
       },
       "18": {
         "length": 969.0141788066353,
@@ -433,9 +528,14 @@
         "coef_temp": 1,
         "coef_global": 0.986466465997348,
         "coef_global_normalise": 0.980980021768474,
+        "temps_seconde_segment": 319.97606350044083,
         "adjusted_time_final": "00:05:19",
         "total_time_final": "01:30:22",
-        "total_time_brut": "01:37:51"
+        "total_time_brut": "01:37:51",
+        "gramme_per_km": 7.11,
+        "mL_per_km": 53.33,
+        "mL_total": 903.73,
+        "gramme_total": 120.5
       },
       "19": {
         "length": 1003.4419386472885,
@@ -454,9 +554,14 @@
         "coef_temp": 1,
         "coef_global": 0.9500303771691989,
         "coef_global_normalise": 0.9447465800410267,
+        "temps_seconde_segment": 308.15743947778213,
         "adjusted_time_final": "00:05:08",
         "total_time_final": "01:35:30",
-        "total_time_brut": "01:43:17"
+        "total_time_brut": "01:43:17",
+        "gramme_per_km": 6.85,
+        "mL_per_km": 51.36,
+        "mL_total": 955.09,
+        "gramme_total": 127.35
       },
       "20": {
         "length": 987.3365757684547,
@@ -475,9 +580,14 @@
         "coef_temp": 1,
         "coef_global": 0.8826594742902788,
         "coef_global_normalise": 0.8777503748472635,
+        "temps_seconde_segment": 286.3046172676804,
         "adjusted_time_final": "00:04:46",
         "total_time_final": "01:40:16",
-        "total_time_brut": "01:48:43"
+        "total_time_brut": "01:48:43",
+        "gramme_per_km": 6.36,
+        "mL_per_km": 47.72,
+        "mL_total": 1002.81,
+        "gramme_total": 133.71
       },
       "21": {
         "length": 997.8135303686851,
@@ -496,9 +606,14 @@
         "coef_temp": 1,
         "coef_global": 0.953275237360588,
         "coef_global_normalise": 0.9479733932484744,
+        "temps_seconde_segment": 309.2099614097874,
         "adjusted_time_final": "00:05:09",
         "total_time_final": "01:45:26",
-        "total_time_brut": "01:54:09"
+        "total_time_brut": "01:54:09",
+        "gramme_per_km": 6.87,
+        "mL_per_km": 51.53,
+        "mL_total": 1054.34,
+        "gramme_total": 140.58
       },
       "22": {
         "length": 1053.208094813142,
@@ -517,9 +632,14 @@
         "coef_temp": 1,
         "coef_global": 0.9269405730467928,
         "coef_global_normalise": 0.9217851948025257,
+        "temps_seconde_segment": 300.66789484068784,
         "adjusted_time_final": "00:05:00",
         "total_time_final": "01:50:26",
-        "total_time_brut": "01:59:35"
+        "total_time_brut": "01:59:35",
+        "gramme_per_km": 6.68,
+        "mL_per_km": 50.11,
+        "mL_total": 1104.45,
+        "gramme_total": 147.26
       },
       "23": {
         "length": 945.6215094281612,
@@ -538,9 +658,14 @@
         "coef_temp": 1,
         "coef_global": 1.0771305346822269,
         "coef_global_normalise": 1.0711398428447942,
+        "temps_seconde_segment": 349.384393939115,
         "adjusted_time_final": "00:05:49",
         "total_time_final": "01:56:16",
-        "total_time_brut": "02:05:02"
+        "total_time_brut": "02:05:02",
+        "gramme_per_km": 7.76,
+        "mL_per_km": 58.23,
+        "mL_total": 1162.68,
+        "gramme_total": 155.02
       },
       "24": {
         "length": 1000.8041417483801,
@@ -559,9 +684,14 @@
         "coef_temp": 1,
         "coef_global": 0.9597021356002237,
         "coef_global_normalise": 0.9543645469190124,
+        "temps_seconde_segment": 311.2946279140435,
         "adjusted_time_final": "00:05:11",
         "total_time_final": "02:01:27",
-        "total_time_brut": "02:10:28"
+        "total_time_brut": "02:10:28",
+        "gramme_per_km": 6.92,
+        "mL_per_km": 51.88,
+        "mL_total": 1214.56,
+        "gramme_total": 161.94
       },
       "25": {
         "length": 1005.3432630019885,
@@ -580,9 +710,14 @@
         "coef_temp": 1,
         "coef_global": 0.8815159091341161,
         "coef_global_normalise": 0.8766131698732942,
+        "temps_seconde_segment": 285.9336837492711,
         "adjusted_time_final": "00:04:45",
         "total_time_final": "02:06:13",
-        "total_time_brut": "02:15:54"
+        "total_time_brut": "02:15:54",
+        "gramme_per_km": 6.35,
+        "mL_per_km": 47.66,
+        "mL_total": 1262.22,
+        "gramme_total": 168.3
       },
       "26": {
         "length": 1004.4973291786563,
@@ -601,9 +736,14 @@
         "coef_temp": 1,
         "coef_global": 1.1264281219505712,
         "coef_global_normalise": 1.1201632510381385,
+        "temps_seconde_segment": 365.37484922362,
         "adjusted_time_final": "00:06:05",
         "total_time_final": "02:12:18",
-        "total_time_brut": "02:21:20"
+        "total_time_brut": "02:21:20",
+        "gramme_per_km": 8.12,
+        "mL_per_km": 60.9,
+        "mL_total": 1323.12,
+        "gramme_total": 176.42
       },
       "27": {
         "length": 1018.3239830155472,
@@ -622,9 +762,14 @@
         "coef_temp": 1,
         "coef_global": 0.9407605740495887,
         "coef_global_normalise": 0.9355283329140238,
+        "temps_seconde_segment": 305.1506316298963,
         "adjusted_time_final": "00:05:05",
         "total_time_final": "02:17:23",
-        "total_time_brut": "02:26:46"
+        "total_time_brut": "02:26:46",
+        "gramme_per_km": 6.78,
+        "mL_per_km": 50.86,
+        "mL_total": 1373.97,
+        "gramme_total": 183.2
       },
       "28": {
         "length": 1002.484302669584,
@@ -643,9 +788,14 @@
         "coef_temp": 1,
         "coef_global": 1.001807212097835,
         "coef_global_normalise": 0.9962354470285566,
+        "temps_seconde_segment": 324.9520781117746,
         "adjusted_time_final": "00:05:24",
         "total_time_final": "02:22:48",
-        "total_time_brut": "02:32:13"
+        "total_time_brut": "02:32:13",
+        "gramme_per_km": 7.22,
+        "mL_per_km": 54.16,
+        "mL_total": 1428.13,
+        "gramme_total": 190.42
       },
       "29": {
         "length": 1011.5077602049287,
@@ -664,9 +814,14 @@
         "coef_temp": 1,
         "coef_global": 0.879688996095311,
         "coef_global_normalise": 0.8747964176020812,
+        "temps_seconde_segment": 285.34109549344686,
         "adjusted_time_final": "00:04:45",
         "total_time_final": "02:27:34",
-        "total_time_brut": "02:37:39"
+        "total_time_brut": "02:37:39",
+        "gramme_per_km": 6.34,
+        "mL_per_km": 47.56,
+        "mL_total": 1475.69,
+        "gramme_total": 196.76
       },
       "30": {
         "length": 964.9054329241162,
@@ -685,9 +840,14 @@
         "coef_temp": 1,
         "coef_global": 1.073860872708683,
         "coef_global_normalise": 1.0678883657956075,
+        "temps_seconde_segment": 348.3238271552113,
         "adjusted_time_final": "00:05:48",
         "total_time_final": "02:33:22",
-        "total_time_brut": "02:43:05"
+        "total_time_brut": "02:43:05",
+        "gramme_per_km": 7.74,
+        "mL_per_km": 58.05,
+        "mL_total": 1533.74,
+        "gramme_total": 204.5
       },
       "31": {
         "length": 1072.5007032068895,
@@ -706,9 +866,14 @@
         "coef_temp": 1,
         "coef_global": 1.0711756419379503,
         "coef_global_normalise": 1.065218069510104,
+        "temps_seconde_segment": 347.45282991280567,
         "adjusted_time_final": "00:05:47",
         "total_time_final": "02:39:09",
-        "total_time_brut": "02:48:31"
+        "total_time_brut": "02:48:31",
+        "gramme_per_km": 7.72,
+        "mL_per_km": 57.91,
+        "mL_total": 1591.65,
+        "gramme_total": 212.22
       },
       "32": {
         "length": 945.6335499849133,
@@ -727,9 +892,14 @@
         "coef_temp": 1,
         "coef_global": 0.9879874237831134,
         "coef_global_normalise": 0.9824925204222226,
+        "temps_seconde_segment": 320.4694103113206,
         "adjusted_time_final": "00:05:20",
         "total_time_final": "02:44:30",
-        "total_time_brut": "02:53:57"
+        "total_time_brut": "02:53:57",
+        "gramme_per_km": 7.12,
+        "mL_per_km": 53.41,
+        "mL_total": 1645.06,
+        "gramme_total": 219.34
       },
       "33": {
         "length": 974.2826092757107,
@@ -748,9 +918,14 @@
         "coef_temp": 1,
         "coef_global": 0.9703348582441728,
         "coef_global_normalise": 0.9649381334019282,
+        "temps_seconde_segment": 314.74352035304094,
         "adjusted_time_final": "00:05:14",
         "total_time_final": "02:49:45",
-        "total_time_brut": "02:59:23"
+        "total_time_brut": "02:59:23",
+        "gramme_per_km": 6.99,
+        "mL_per_km": 52.46,
+        "mL_total": 1697.52,
+        "gramme_total": 226.34
       },
       "34": {
         "length": 1010.0304601325873,
@@ -769,9 +944,14 @@
         "coef_temp": 1,
         "coef_global": 0.9821546253211277,
         "coef_global_normalise": 0.9766921623163595,
+        "temps_seconde_segment": 318.5774495043501,
         "adjusted_time_final": "00:05:18",
         "total_time_final": "02:55:03",
-        "total_time_brut": "03:04:50"
+        "total_time_brut": "03:04:50",
+        "gramme_per_km": 7.08,
+        "mL_per_km": 53.1,
+        "mL_total": 1750.62,
+        "gramme_total": 233.42
       },
       "35": {
         "length": 1024.7730065124995,
@@ -790,9 +970,14 @@
         "coef_temp": 1,
         "coef_global": 0.9805787783473119,
         "coef_global_normalise": 0.975125079752519,
+        "temps_seconde_segment": 318.06629851367666,
         "adjusted_time_final": "00:05:18",
         "total_time_final": "03:00:21",
-        "total_time_brut": "03:10:16"
+        "total_time_brut": "03:10:16",
+        "gramme_per_km": 7.07,
+        "mL_per_km": 53.01,
+        "mL_total": 1803.63,
+        "gramme_total": 240.48
       },
       "36": {
         "length": 1022.1827089920798,
@@ -811,9 +996,14 @@
         "coef_temp": 1,
         "coef_global": 0.9313864373227254,
         "coef_global_normalise": 0.9262063324534389,
+        "temps_seconde_segment": 302.1099815196627,
         "adjusted_time_final": "00:05:02",
         "total_time_final": "03:05:23",
-        "total_time_brut": "03:15:42"
+        "total_time_brut": "03:15:42",
+        "gramme_per_km": 6.71,
+        "mL_per_km": 50.35,
+        "mL_total": 1853.98,
+        "gramme_total": 247.2
       },
       "37": {
         "length": 992.7722929411353,
@@ -832,9 +1022,14 @@
         "coef_temp": 1,
         "coef_global": 0.9826800022473677,
         "coef_global_normalise": 0.9772146172464604,
+        "temps_seconde_segment": 318.74786385345044,
         "adjusted_time_final": "00:05:18",
         "total_time_final": "03:10:42",
-        "total_time_brut": "03:21:08"
+        "total_time_brut": "03:21:08",
+        "gramme_per_km": 7.08,
+        "mL_per_km": 53.12,
+        "mL_total": 1907.11,
+        "gramme_total": 254.28
       },
       "38": {
         "length": 991.2238295289883,
@@ -853,9 +1048,14 @@
         "coef_temp": 1,
         "coef_global": 1.0205017131212395,
         "coef_global_normalise": 1.0148259745862764,
+        "temps_seconde_segment": 331.01593639055164,
         "adjusted_time_final": "00:05:31",
         "total_time_final": "03:16:13",
-        "total_time_brut": "03:26:34"
+        "total_time_brut": "03:26:34",
+        "gramme_per_km": 7.36,
+        "mL_per_km": 55.17,
+        "mL_total": 1962.27,
+        "gramme_total": 261.64
       },
       "39": {
         "length": 957.1787007934461,
@@ -874,9 +1074,14 @@
         "coef_temp": 1,
         "coef_global": 1.0485145299443404,
         "coef_global_normalise": 1.0426829921374392,
+        "temps_seconde_segment": 340.10233837538993,
         "adjusted_time_final": "00:05:40",
         "total_time_final": "03:21:53",
-        "total_time_brut": "03:32:01"
+        "total_time_brut": "03:32:01",
+        "gramme_per_km": 7.56,
+        "mL_per_km": 56.68,
+        "mL_total": 2018.96,
+        "gramme_total": 269.19
       },
       "40": {
         "length": 1006.284051960365,
@@ -895,9 +1100,14 @@
         "coef_temp": 1,
         "coef_global": 0.9952382660500037,
         "coef_global_normalise": 0.9897030355790883,
+        "temps_seconde_segment": 322.82133614518705,
         "adjusted_time_final": "00:05:22",
         "total_time_final": "03:27:16",
-        "total_time_brut": "03:37:27"
+        "total_time_brut": "03:37:27",
+        "gramme_per_km": 7.17,
+        "mL_per_km": 53.8,
+        "mL_total": 2072.76,
+        "gramme_total": 276.37
       },
       "41": {
         "length": 1020.9965402739061,
@@ -916,9 +1126,14 @@
         "coef_temp": 1,
         "coef_global": 0.9309736814382296,
         "coef_global_normalise": 0.9257958721990718,
+        "temps_seconde_segment": 301.97609759389326,
         "adjusted_time_final": "00:05:01",
         "total_time_final": "03:32:18",
-        "total_time_brut": "03:42:53"
+        "total_time_brut": "03:42:53",
+        "gramme_per_km": 6.71,
+        "mL_per_km": 50.33,
+        "mL_total": 2123.09,
+        "gramme_total": 283.08
       },
       "42": {
         "length": 993.1804918287078,
@@ -937,9 +1152,14 @@
         "coef_temp": 1,
         "coef_global": 1.034533336109018,
         "coef_global_normalise": 1.0287795577018275,
+        "temps_seconde_segment": 335.5673161311821,
         "adjusted_time_final": "00:05:35",
         "total_time_final": "03:37:54",
-        "total_time_brut": "03:48:19"
+        "total_time_brut": "03:48:19",
+        "gramme_per_km": 7.46,
+        "mL_per_km": 55.93,
+        "mL_total": 2179.02,
+        "gramme_total": 290.54
       },
       "43": {
         "length": 1008.749744920995,
@@ -958,9 +1178,14 @@
         "coef_temp": 1,
         "coef_global": 0.9873401900623691,
         "coef_global_normalise": 0.9818488864302417,
+        "temps_seconde_segment": 320.2594697758162,
         "adjusted_time_final": "00:05:20",
         "total_time_final": "03:43:14",
-        "total_time_brut": "03:53:45"
+        "total_time_brut": "03:53:45",
+        "gramme_per_km": 7.12,
+        "mL_per_km": 53.38,
+        "mL_total": 2232.4,
+        "gramme_total": 297.65
       },
       "44": {
         "length": 999.691479395541,
@@ -979,9 +1204,14 @@
         "coef_temp": 1,
         "coef_global": 1.0853502032982822,
         "coef_global_normalise": 1.079313796015879,
+        "temps_seconde_segment": 352.0505739844594,
         "adjusted_time_final": "00:05:52",
         "total_time_final": "03:49:06",
-        "total_time_brut": "03:59:11"
+        "total_time_brut": "03:59:11",
+        "gramme_per_km": 7.82,
+        "mL_per_km": 58.68,
+        "mL_total": 2291.07,
+        "gramme_total": 305.48
       },
       "45": {
         "length": 972.8381951088729,
@@ -1000,9 +1230,14 @@
         "coef_temp": 1,
         "coef_global": 0.9858482691500916,
         "coef_global_normalise": 0.980365263155199,
+        "temps_seconde_segment": 319.7755415359628,
         "adjusted_time_final": "00:05:19",
         "total_time_final": "03:54:26",
-        "total_time_brut": "04:04:38"
+        "total_time_brut": "04:04:38",
+        "gramme_per_km": 7.11,
+        "mL_per_km": 53.3,
+        "mL_total": 2344.37,
+        "gramme_total": 312.58
       },
       "46": {
         "length": 1015.6951993446906,
@@ -1021,9 +1256,14 @@
         "coef_temp": 1,
         "coef_global": 0.9887177476177966,
         "coef_global_normalise": 0.9832187824047028,
+        "temps_seconde_segment": 320.706302444766,
         "adjusted_time_final": "00:05:20",
         "total_time_final": "03:59:46",
-        "total_time_brut": "04:10:04"
+        "total_time_brut": "04:10:04",
+        "gramme_per_km": 7.13,
+        "mL_per_km": 53.45,
+        "mL_total": 2397.82,
+        "gramme_total": 319.71
       },
       "47": {
         "length": 1026.7026330831711,
@@ -1042,9 +1282,14 @@
         "coef_temp": 1,
         "coef_global": 0.9417245453680643,
         "coef_global_normalise": 0.9364869428998446,
+        "temps_seconde_segment": 305.4633110350713,
         "adjusted_time_final": "00:05:05",
         "total_time_final": "04:04:52",
-        "total_time_brut": "04:15:30"
+        "total_time_brut": "04:15:30",
+        "gramme_per_km": 6.79,
+        "mL_per_km": 50.91,
+        "mL_total": 2448.73,
+        "gramme_total": 326.5
       },
       "48": {
         "length": 972.9585508575674,
@@ -1063,9 +1308,14 @@
         "coef_temp": 1,
         "coef_global": 1.0031789424008943,
         "coef_global_normalise": 0.9975995481601598,
+        "temps_seconde_segment": 325.39702061888096,
         "adjusted_time_final": "00:05:25",
         "total_time_final": "04:10:17",
-        "total_time_brut": "04:20:56"
+        "total_time_brut": "04:20:56",
+        "gramme_per_km": 7.23,
+        "mL_per_km": 54.23,
+        "mL_total": 2502.96,
+        "gramme_total": 333.73
       },
       "49": {
         "length": 993.1807927260134,
@@ -1084,9 +1334,14 @@
         "coef_temp": 1,
         "coef_global": 1.0335993253829536,
         "coef_global_normalise": 1.0278507416761755,
+        "temps_seconde_segment": 335.26435491993493,
         "adjusted_time_final": "00:05:35",
         "total_time_final": "04:15:53",
-        "total_time_brut": "04:26:22"
+        "total_time_brut": "04:26:22",
+        "gramme_per_km": 7.45,
+        "mL_per_km": 55.88,
+        "mL_total": 2558.84,
+        "gramme_total": 341.18
       },
       "50": {
         "length": 1045.0935011204235,
@@ -1105,9 +1360,14 @@
         "coef_temp": 1,
         "coef_global": 1.1248943876475754,
         "coef_global_normalise": 1.1186380469264927,
+        "temps_seconde_segment": 364.8773581464834,
         "adjusted_time_final": "00:06:04",
         "total_time_final": "04:21:57",
-        "total_time_brut": "04:31:49"
+        "total_time_brut": "04:31:49",
+        "gramme_per_km": 8.11,
+        "mL_per_km": 60.81,
+        "mL_total": 2619.65,
+        "gramme_total": 349.29
       },
       "51": {
         "length": 972.079723041369,
@@ -1126,9 +1386,14 @@
         "coef_temp": 1,
         "coef_global": 1.0458856758614263,
         "coef_global_normalise": 1.0400687589887474,
+        "temps_seconde_segment": 339.24962780694966,
         "adjusted_time_final": "00:05:39",
         "total_time_final": "04:27:37",
-        "total_time_brut": "04:37:15"
+        "total_time_brut": "04:37:15",
+        "gramme_per_km": 7.54,
+        "mL_per_km": 56.54,
+        "mL_total": 2676.19,
+        "gramme_total": 356.83
       },
       "52": {
         "length": 981.0538294327922,
@@ -1147,9 +1412,14 @@
         "coef_temp": 1,
         "coef_global": 1.0499686433578397,
         "coef_global_normalise": 1.0441290181881941,
+        "temps_seconde_segment": 340.57400315262515,
         "adjusted_time_final": "00:05:40",
         "total_time_final": "04:33:17",
-        "total_time_brut": "04:42:41"
+        "total_time_brut": "04:42:41",
+        "gramme_per_km": 7.57,
+        "mL_per_km": 56.76,
+        "mL_total": 2732.96,
+        "gramme_total": 364.39
       },
       "53": {
         "length": 993.3068510526857,
@@ -1168,9 +1438,14 @@
         "coef_temp": 1,
         "coef_global": 1.0286789968034824,
         "coef_global_normalise": 1.0229577785564228,
+        "temps_seconde_segment": 333.668368209534,
         "adjusted_time_final": "00:05:33",
         "total_time_final": "04:38:51",
-        "total_time_brut": "04:48:07"
+        "total_time_brut": "04:48:07",
+        "gramme_per_km": 7.41,
+        "mL_per_km": 55.61,
+        "mL_total": 2788.57,
+        "gramme_total": 371.81
       },
       "54": {
         "length": 1062.816193721454,
@@ -1189,9 +1464,14 @@
         "coef_temp": 1,
         "coef_global": 1.0454684561983543,
         "coef_global_normalise": 1.0396538597820635,
+        "temps_seconde_segment": 339.1142959837135,
         "adjusted_time_final": "00:05:39",
         "total_time_final": "04:44:30",
-        "total_time_brut": "04:53:33"
+        "total_time_brut": "04:53:33",
+        "gramme_per_km": 7.54,
+        "mL_per_km": 56.52,
+        "mL_total": 2845.09,
+        "gramme_total": 379.34
       },
       "55": {
         "length": 985.3066739167314,
@@ -1210,9 +1490,14 @@
         "coef_temp": 1,
         "coef_global": 0.977916381542455,
         "coef_global_normalise": 0.9724774904369063,
+        "temps_seconde_segment": 317.2027078307101,
         "adjusted_time_final": "00:05:17",
         "total_time_final": "04:49:47",
-        "total_time_brut": "04:58:59"
+        "total_time_brut": "04:58:59",
+        "gramme_per_km": 7.05,
+        "mL_per_km": 52.87,
+        "mL_total": 2897.95,
+        "gramme_total": 386.39
       },
       "56": {
         "length": 979.9245852637795,
@@ -1231,9 +1516,14 @@
         "coef_temp": 1,
         "coef_global": 1.0993368928357852,
         "coef_global_normalise": 1.093222695588148,
+        "temps_seconde_segment": 356.58737884694216,
         "adjusted_time_final": "00:05:56",
         "total_time_final": "04:55:44",
-        "total_time_brut": "05:04:26"
+        "total_time_brut": "05:04:26",
+        "gramme_per_km": 7.92,
+        "mL_per_km": 59.43,
+        "mL_total": 2957.38,
+        "gramme_total": 394.32
       },
       "57": {
         "length": 1005.3662464690123,
@@ -1252,9 +1542,14 @@
         "coef_temp": 1,
         "coef_global": 1.0044409100783447,
         "coef_global_normalise": 0.9988544971344716,
+        "temps_seconde_segment": 325.80635987532196,
         "adjusted_time_final": "00:05:25",
         "total_time_final": "05:01:10",
-        "total_time_brut": "05:09:52"
+        "total_time_brut": "05:09:52",
+        "gramme_per_km": 7.24,
+        "mL_per_km": 54.3,
+        "mL_total": 3011.69,
+        "gramme_total": 401.56
       },
       "58": {
         "length": 983.1521786128379,
@@ -1273,9 +1568,14 @@
         "coef_temp": 1,
         "coef_global": 0.966878953270133,
         "coef_global_normalise": 0.9615014491825252,
+        "temps_seconde_segment": 313.62254269435607,
         "adjusted_time_final": "00:05:13",
         "total_time_final": "05:06:23",
-        "total_time_brut": "05:15:18"
+        "total_time_brut": "05:15:18",
+        "gramme_per_km": 6.97,
+        "mL_per_km": 52.27,
+        "mL_total": 3063.96,
+        "gramme_total": 408.53
       },
       "59": {
         "length": 991.7570929012775,
@@ -1294,9 +1594,14 @@
         "coef_temp": 1,
         "coef_global": 1.0253131024111506,
         "coef_global_normalise": 1.0196106043056268,
+        "temps_seconde_segment": 332.57658691240937,
         "adjusted_time_final": "00:05:32",
         "total_time_final": "05:11:56",
-        "total_time_brut": "05:20:44"
+        "total_time_brut": "05:20:44",
+        "gramme_per_km": 7.39,
+        "mL_per_km": 55.43,
+        "mL_total": 3119.39,
+        "gramme_total": 415.92
       },
       "60": {
         "length": 1023.5117079333829,
@@ -1315,9 +1620,14 @@
         "coef_temp": 1,
         "coef_global": 1.0875066686125083,
         "coef_global_normalise": 1.0814582676870508,
+        "temps_seconde_segment": 352.75005775416224,
         "adjusted_time_final": "00:05:52",
         "total_time_final": "05:17:49",
-        "total_time_brut": "05:26:10"
+        "total_time_brut": "05:26:10",
+        "gramme_per_km": 7.84,
+        "mL_per_km": 58.79,
+        "mL_total": 3178.18,
+        "gramme_total": 423.76
       },
       "61": {
         "length": 1001.6271022851042,
@@ -1336,9 +1646,14 @@
         "coef_temp": 1,
         "coef_global": 0.9819827496519845,
         "coef_global_normalise": 0.9765212425705097,
+        "temps_seconde_segment": 318.52169890164885,
         "adjusted_time_final": "00:05:18",
         "total_time_final": "05:23:07",
-        "total_time_brut": "05:31:36"
+        "total_time_brut": "05:31:36",
+        "gramme_per_km": 7.08,
+        "mL_per_km": 53.09,
+        "mL_total": 3231.26,
+        "gramme_total": 430.84
       },
       "62": {
         "length": 972.3069839944865,
@@ -1357,9 +1672,14 @@
         "coef_temp": 1,
         "coef_global": 1.1219422966406898,
         "coef_global_normalise": 1.1157023746051133,
+        "temps_seconde_segment": 363.9198005486959,
         "adjusted_time_final": "00:06:03",
         "total_time_final": "05:29:11",
-        "total_time_brut": "05:37:03"
+        "total_time_brut": "05:37:03",
+        "gramme_per_km": 8.09,
+        "mL_per_km": 60.65,
+        "mL_total": 3291.92,
+        "gramme_total": 438.92
       },
       "63": {
         "length": 1071.9273256407068,
@@ -1378,9 +1698,14 @@
         "coef_temp": 1,
         "coef_global": 1.0691511229119572,
         "coef_global_normalise": 1.0632048102796632,
+        "temps_seconde_segment": 346.79614501702054,
         "adjusted_time_final": "00:05:46",
         "total_time_final": "05:34:58",
-        "total_time_brut": "05:42:29"
+        "total_time_brut": "05:42:29",
+        "gramme_per_km": 7.71,
+        "mL_per_km": 57.8,
+        "mL_total": 3349.72,
+        "gramme_total": 446.63
       },
       "64": {
         "length": 972.3636275851204,
@@ -1399,9 +1724,14 @@
         "coef_temp": 1,
         "coef_global": 1.073133495132454,
         "coef_global_normalise": 1.067165033685335,
+        "temps_seconde_segment": 348.0878906874826,
         "adjusted_time_final": "00:05:48",
         "total_time_final": "05:40:46",
-        "total_time_brut": "05:47:55"
+        "total_time_brut": "05:47:55",
+        "gramme_per_km": 7.74,
+        "mL_per_km": 58.01,
+        "mL_total": 3407.73,
+        "gramme_total": 454.36
       },
       "65": {
         "length": 983.1607903136154,
@@ -1420,9 +1750,14 @@
         "coef_temp": 1,
         "coef_global": 1.1794153466355133,
         "coef_global_normalise": 1.1728557759404754,
+        "temps_seconde_segment": 382.5620969962643,
         "adjusted_time_final": "00:06:22",
         "total_time_final": "05:47:08",
-        "total_time_brut": "05:53:21"
+        "total_time_brut": "05:53:21",
+        "gramme_per_km": 8.5,
+        "mL_per_km": 63.76,
+        "mL_total": 3471.49,
+        "gramme_total": 462.87
       },
       "66": {
         "length": 984.7227129192821,
@@ -1441,9 +1776,14 @@
         "coef_temp": 1,
         "coef_global": 0.998167024087802,
         "coef_global_normalise": 0.9926155047026781,
+        "temps_seconde_segment": 323.77132532391954,
         "adjusted_time_final": "00:05:23",
         "total_time_final": "05:52:32",
-        "total_time_brut": "05:58:47"
+        "total_time_brut": "05:58:47",
+        "gramme_per_km": 7.19,
+        "mL_per_km": 53.96,
+        "mL_total": 3525.45,
+        "gramme_total": 470.06
       },
       "67": {
         "length": 998.5499874475049,
@@ -1462,9 +1802,14 @@
         "coef_temp": 1,
         "coef_global": 1.0322431274893196,
         "coef_global_normalise": 1.0265020865671806,
+        "temps_seconde_segment": 334.82445059648296,
         "adjusted_time_final": "00:05:34",
         "total_time_final": "05:58:07",
-        "total_time_brut": "06:04:14"
+        "total_time_brut": "06:04:14",
+        "gramme_per_km": 7.44,
+        "mL_per_km": 55.8,
+        "mL_total": 3581.26,
+        "gramme_total": 477.5
       },
       "68": {
         "length": 1002.7726519086058,
@@ -1483,9 +1828,14 @@
         "coef_temp": 1,
         "coef_global": 1.1036000835067332,
         "coef_global_normalise": 1.0974621756123997,
+        "temps_seconde_segment": 357.97021244125256,
         "adjusted_time_final": "00:05:57",
         "total_time_final": "06:04:05",
-        "total_time_brut": "06:09:40"
+        "total_time_brut": "06:09:40",
+        "gramme_per_km": 7.95,
+        "mL_per_km": 59.66,
+        "mL_total": 3640.92,
+        "gramme_total": 485.46
       },
       "69": {
         "length": 980.2282154148874,
@@ -1504,9 +1854,14 @@
         "coef_temp": 1,
         "coef_global": 1.056800945473376,
         "coef_global_normalise": 1.050923320994272,
+        "temps_seconde_segment": 342.7901688419117,
         "adjusted_time_final": "00:05:42",
         "total_time_final": "06:09:48",
-        "total_time_brut": "06:15:06"
+        "total_time_brut": "06:15:06",
+        "gramme_per_km": 7.62,
+        "mL_per_km": 57.13,
+        "mL_total": 3698.05,
+        "gramme_total": 493.07
       },
       "70": {
         "length": 1062.9882668132157,
@@ -1525,9 +1880,14 @@
         "coef_temp": 1,
         "coef_global": 1.0147287133892475,
         "coef_global_normalise": 1.0090850826269808,
+        "temps_seconde_segment": 329.1433722512686,
         "adjusted_time_final": "00:05:29",
         "total_time_final": "06:15:17",
-        "total_time_brut": "06:20:32"
+        "total_time_brut": "06:20:32",
+        "gramme_per_km": 7.31,
+        "mL_per_km": 54.86,
+        "mL_total": 3752.91,
+        "gramme_total": 500.39
       },
       "71": {
         "length": 962.8202027574334,
@@ -1546,9 +1906,14 @@
         "coef_temp": 1,
         "coef_global": 1.0427177205876819,
         "coef_global_normalise": 1.036918422975797,
+        "temps_seconde_segment": 338.2220512062455,
         "adjusted_time_final": "00:05:38",
         "total_time_final": "06:20:55",
-        "total_time_brut": "06:25:58"
+        "total_time_brut": "06:25:58",
+        "gramme_per_km": 7.52,
+        "mL_per_km": 56.37,
+        "mL_total": 3809.28,
+        "gramme_total": 507.9
       },
       "72": {
         "length": 975.7619180205024,
@@ -1567,9 +1932,14 @@
         "coef_temp": 1,
         "coef_global": 1.1154945537353453,
         "coef_global_normalise": 1.1092904922009332,
+        "temps_seconde_segment": 361.8283727461004,
         "adjusted_time_final": "00:06:01",
         "total_time_final": "06:26:57",
-        "total_time_brut": "06:31:24"
+        "total_time_brut": "06:31:24",
+        "gramme_per_km": 8.04,
+        "mL_per_km": 60.3,
+        "mL_total": 3869.58,
+        "gramme_total": 515.94
       },
       "73": {
         "length": 1081.75473460255,
@@ -1588,9 +1958,14 @@
         "coef_temp": 1,
         "coef_global": 1.0176198928322382,
         "coef_global_normalise": 1.0119601821571549,
+        "temps_seconde_segment": 330.0811722160208,
         "adjusted_time_final": "00:05:30",
         "total_time_final": "06:32:27",
-        "total_time_brut": "06:36:51"
+        "total_time_brut": "06:36:51",
+        "gramme_per_km": 7.34,
+        "mL_per_km": 55.01,
+        "mL_total": 3924.6,
+        "gramme_total": 523.28
       },
       "74": {
         "length": 925.0552760433334,
@@ -1609,9 +1984,14 @@
         "coef_temp": 1,
         "coef_global": 1.013768564545027,
         "coef_global_normalise": 1.008130273855907,
+        "temps_seconde_segment": 328.83193272631974,
         "adjusted_time_final": "00:05:28",
         "total_time_final": "06:37:56",
-        "total_time_brut": "06:42:17"
+        "total_time_brut": "06:42:17",
+        "gramme_per_km": 7.31,
+        "mL_per_km": 54.81,
+        "mL_total": 3979.4,
+        "gramme_total": 530.59
       },
       "75": {
         "length": 997.2977730161696,
@@ -1630,9 +2010,14 @@
         "coef_temp": 1,
         "coef_global": 1.079492408873711,
         "coef_global_normalise": 1.073488580967822,
+        "temps_seconde_segment": 350.15050534008424,
         "adjusted_time_final": "00:05:50",
         "total_time_final": "06:43:46",
-        "total_time_brut": "06:47:43"
+        "total_time_brut": "06:47:43",
+        "gramme_per_km": 7.78,
+        "mL_per_km": 58.36,
+        "mL_total": 4037.76,
+        "gramme_total": 538.37
       },
       "76": {
         "length": 1063.6402754879236,
@@ -1651,9 +2036,14 @@
         "coef_temp": 1,
         "coef_global": 1.0942320791516247,
         "coef_global_normalise": 1.0881462734170724,
+        "temps_seconde_segment": 354.93155146318065,
         "adjusted_time_final": "00:05:54",
         "total_time_final": "06:49:41",
-        "total_time_brut": "06:53:09"
+        "total_time_brut": "06:53:09",
+        "gramme_per_km": 7.89,
+        "mL_per_km": 59.16,
+        "mL_total": 4096.92,
+        "gramme_total": 546.26
       },
       "77": {
         "length": 943.2891940986194,
@@ -1672,9 +2062,14 @@
         "coef_temp": 1,
         "coef_global": 1.0913083487121007,
         "coef_global_normalise": 1.0852388039296939,
+        "temps_seconde_segment": 353.98319306578753,
         "adjusted_time_final": "00:05:53",
         "total_time_final": "06:55:35",
-        "total_time_brut": "06:58:35"
+        "total_time_brut": "06:58:35",
+        "gramme_per_km": 7.87,
+        "mL_per_km": 59.0,
+        "mL_total": 4155.91,
+        "gramme_total": 554.12
       },
       "78": {
         "length": 1017.9134767921112,
@@ -1693,9 +2088,14 @@
         "coef_temp": 1,
         "coef_global": 1.0880231775551392,
         "coef_global_normalise": 1.0819719039547302,
+        "temps_seconde_segment": 352.91759563195393,
         "adjusted_time_final": "00:05:52",
         "total_time_final": "07:01:28",
-        "total_time_brut": "07:04:02"
+        "total_time_brut": "07:04:02",
+        "gramme_per_km": 7.84,
+        "mL_per_km": 58.82,
+        "mL_total": 4214.73,
+        "gramme_total": 561.96
       },
       "79": {
         "length": 972.6430506011752,
@@ -1714,9 +2114,14 @@
         "coef_temp": 1,
         "coef_global": 1.098909192347407,
         "coef_global_normalise": 1.0927973738475096,
+        "temps_seconde_segment": 356.4486474015807,
         "adjusted_time_final": "00:05:56",
         "total_time_final": "07:07:24",
-        "total_time_brut": "07:09:28"
+        "total_time_brut": "07:09:28",
+        "gramme_per_km": 7.92,
+        "mL_per_km": 59.41,
+        "mL_total": 4274.14,
+        "gramme_total": 569.89
       },
       "80": {
         "length": 998.3560759357861,
@@ -1735,9 +2140,14 @@
         "coef_temp": 1,
         "coef_global": 1.093639633088904,
         "coef_global_normalise": 1.0875571223698375,
+        "temps_seconde_segment": 354.7393821745936,
         "adjusted_time_final": "00:05:54",
         "total_time_final": "07:13:19",
-        "total_time_brut": "07:14:54"
+        "total_time_brut": "07:14:54",
+        "gramme_per_km": 7.88,
+        "mL_per_km": 59.12,
+        "mL_total": 4333.26,
+        "gramme_total": 577.77
       },
       "81": {
         "length": 1013.7019125599647,
@@ -1756,9 +2166,14 @@
         "coef_temp": 1,
         "coef_global": 1.0934926997796302,
         "coef_global_normalise": 1.0874110062615883,
+        "temps_seconde_segment": 354.69172202240486,
         "adjusted_time_final": "00:05:54",
         "total_time_final": "07:19:14",
-        "total_time_brut": "07:20:20"
+        "total_time_brut": "07:20:20",
+        "gramme_per_km": 7.88,
+        "mL_per_km": 59.12,
+        "mL_total": 4392.38,
+        "gramme_total": 585.65
       },
       "82": {
         "length": 1018.7421613645903,
@@ -1777,9 +2192,14 @@
         "coef_temp": 1,
         "coef_global": 1.1033583124195854,
         "coef_global_normalise": 1.0972217491868612,
+        "temps_seconde_segment": 357.8917901497704,
         "adjusted_time_final": "00:05:57",
         "total_time_final": "07:25:12",
-        "total_time_brut": "07:25:46"
+        "total_time_brut": "07:25:46",
+        "gramme_per_km": 7.95,
+        "mL_per_km": 59.65,
+        "mL_total": 4452.03,
+        "gramme_total": 593.6
       },
       "83": {
         "length": 741.1804782947285,
@@ -1798,9 +2218,14 @@
         "coef_temp": 1,
         "coef_global": 1.1429293110087697,
         "coef_global_normalise": 1.1365726652042363,
+        "temps_seconde_segment": 287.5528842966718,
         "adjusted_time_final": "00:04:47",
         "total_time_final": "07:29:59",
-        "total_time_brut": "07:29:59"
+        "total_time_brut": "07:29:59",
+        "gramme_per_km": 6.39,
+        "mL_per_km": 47.93,
+        "mL_total": 4499.95,
+        "gramme_total": 599.99
       }
     },
     "total_hour": "07:29:59"
@@ -1808,69 +2233,65 @@
   "weather": {
     "wind": {
       "wind_speed": [
-        8.496,
-        7.092,
-        12.924,
-        12.78,
-        13.5,
-        15.624,
-        19.728,
-        17.424,
-        11.088000000000001,
-        11.196,
-        14.688,
-        19.584000000000003,
-        23.148,
-        25.056,
-        23.256,
-        20.052000000000003
+        7.38,
+        12.168,
+        12.492,
+        17.496000000000002,
+        19.08,
+        14.832,
+        14.652000000000001,
+        10.404,
+        11.304,
+        16.344,
+        17.82,
+        22.32,
+        16.38,
+        18.252000000000002,
+        24.588
       ],
       "wind_directions": [
-        148,
-        142,
-        155,
-        149,
+        164,
+        152,
+        151,
         144,
-        126,
-        169,
-        239,
+        148,
+        205,
+        235,
+        208,
+        205,
         200,
-        197,
-        204,
-        197,
+        192,
         191,
-        204,
-        183,
+        217,
+        174,
         173
       ],
-      "wind_departure": 148
+      "wind_departure": 164
     },
     "temp": {
       "temperatures": [
-        8.810000000000002,
-        7.939999999999998,
-        7.8700000000000045,
-        8.090000000000032,
-        8.879999999999995,
-        8.75,
-        8.870000000000005,
-        5.510000000000048,
-        5.010000000000048,
-        5.060000000000002,
-        4.3700000000000045,
-        7.170000000000016,
-        11.150000000000034,
-        7.710000000000036,
+        7.990000000000009,
+        8.120000000000005,
+        7.960000000000036,
+        8.78000000000003,
+        8.800000000000011,
+        8.370000000000005,
+        6.460000000000036,
+        5.53000000000003,
+        5.850000000000023,
+        4.960000000000036,
+        7.510000000000048,
+        10.450000000000045,
+        7.100000000000023,
         7.520000000000039,
-        7.300000000000011
+        7.100000000000023
       ],
-      "temp_max": 11,
-      "temp_min": 4,
+      "temp_max": 10,
+      "temp_min": 5,
       "temp_avg": 8
     },
     "rain": {
       "risk_of_rain": [
-        "Clouds",
         "Rain",
         "Rain",
         "Rain",

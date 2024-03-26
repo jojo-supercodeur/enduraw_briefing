@@ -7,7 +7,12 @@
             "cote": 610,
             "nationality": "France",
             "Team": "Les Ratons Laveurs",
-            "personalized_message":"Good luck for this race, I'm 100% that you will feel strong"
+            "personalized_message":"Good luck for this race, I'm 100% that you will feel strong",
+            "best_nutrition_brand":"Maurten",
+            "energy_consumption":80, 
+            "sexe":"M",
+            "poids":70,     
+            "taille":170     
         },
         "Race1": {
             "template": "trail",
