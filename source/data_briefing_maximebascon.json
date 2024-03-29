@@ -21,7 +21,7 @@
         "nutrition": 168,
         "hydration": 1262,
         "nombre_de_bidon": 3,
-        "nombre_gel": 0
+        "nombre_gel": 4
       },
       "Meudon": {
         "station_time": "04:10:17",
@@ -30,7 +30,7 @@
         "nutrition": 165,
         "hydration": 1241,
         "nombre_de_bidon": 3,
-        "nombre_gel": 1
+        "nombre_gel": 4
       },
       "Chaville": {
         "station_time": "05:06:23",
@@ -48,7 +48,7 @@
         "nutrition": 107,
         "hydration": 806,
         "nombre_de_bidon": 2,
-        "nombre_gel": 2
+        "nombre_gel": 3
       },
       "Finish": {
         "station_time": "07:29:59",
@@ -91,9 +91,9 @@
         "total_time_final": "00:04:53",
         "total_time_brut": "00:05:26",
         "gramme_per_km": 6.53,
+        "gramme_total": 6.53,
         "mL_per_km": 48.94,
-        "mL_total": 48.94,
-        "gramme_total": 6.53
+        "mL_total": 48.94
       },
       "2": {
         "length": 1058.8996242927794,
@@ -117,9 +117,9 @@
         "total_time_final": "00:09:41",
         "total_time_brut": "00:10:52",
         "gramme_per_km": 6.41,
+        "gramme_total": 12.93,
         "mL_per_km": 48.06,
-        "mL_total": 97.0,
-        "gramme_total": 12.93
+        "mL_total": 97.0
       },
       "3": {
         "length": 943.6212985071519,
@@ -143,9 +143,9 @@
         "total_time_final": "00:14:39",
         "total_time_brut": "00:16:18",
         "gramme_per_km": 6.61,
+        "gramme_total": 19.54,
         "mL_per_km": 49.54,
-        "mL_total": 146.54,
-        "gramme_total": 19.54
+        "mL_total": 146.54
       },
       "4": {
         "length": 1024.2939140974281,
@@ -169,9 +169,9 @@
         "total_time_final": "00:19:36",
         "total_time_brut": "00:21:44",
         "gramme_per_km": 6.61,
+        "gramme_total": 26.15,
         "mL_per_km": 49.6,
-        "mL_total": 196.14,
-        "gramme_total": 26.15
+        "mL_total": 196.14
       },
       "5": {
         "length": 1029.9392407723717,
@@ -195,9 +195,9 @@
         "total_time_final": "00:24:35",
         "total_time_brut": "00:27:10",
         "gramme_per_km": 6.63,
+        "gramme_total": 32.78,
         "mL_per_km": 49.72,
-        "mL_total": 245.85,
-        "gramme_total": 32.78
+        "mL_total": 245.85
       },
       "6": {
         "length": 944.6978409895095,
@@ -221,9 +221,9 @@
         "total_time_final": "00:29:34",
         "total_time_brut": "00:32:37",
         "gramme_per_km": 6.64,
+        "gramme_total": 39.43,
         "mL_per_km": 49.84,
-        "mL_total": 295.69,
-        "gramme_total": 39.43
+        "mL_total": 295.69
       },
       "7": {
         "length": 993.0770058195021,
@@ -247,9 +247,9 @@
         "total_time_final": "00:34:33",
         "total_time_brut": "00:38:03",
         "gramme_per_km": 6.66,
+        "gramme_total": 46.08,
         "mL_per_km": 49.93,
-        "mL_total": 345.62,
-        "gramme_total": 46.08
+        "mL_total": 345.62
       },
       "8": {
         "length": 1015.4184523730897,
@@ -273,9 +273,9 @@
         "total_time_final": "00:39:34",
         "total_time_brut": "00:43:29",
         "gramme_per_km": 6.69,
+        "gramme_total": 52.77,
         "mL_per_km": 50.18,
-        "mL_total": 395.8,
-        "gramme_total": 52.77
+        "mL_total": 395.8
       },
       "9": {
         "length": 980.3465307070709,
@@ -299,9 +299,9 @@
         "total_time_final": "00:44:35",
         "total_time_brut": "00:48:55",
         "gramme_per_km": 6.68,
+        "gramme_total": 59.46,
         "mL_per_km": 50.13,
-        "mL_total": 445.93,
-        "gramme_total": 59.46
+        "mL_total": 445.93
       },
       "10": {
         "length": 1002.4112520387911,
@@ -325,9 +325,9 @@
         "total_time_final": "00:49:42",
         "total_time_brut": "00:54:21",
         "gramme_per_km": 6.82,
+        "gramme_total": 66.28,
         "mL_per_km": 51.18,
-        "mL_total": 497.11,
-        "gramme_total": 66.28
+        "mL_total": 497.11
       },
       "11": {
         "length": 1039.0044134066668,
@@ -351,9 +351,9 @@
         "total_time_final": "00:54:47",
         "total_time_brut": "00:59:47",
         "gramme_per_km": 6.76,
+        "gramme_total": 73.05,
         "mL_per_km": 50.73,
-        "mL_total": 547.84,
-        "gramme_total": 73.05
+        "mL_total": 547.84
       },
       "12": {
         "length": 996.8459562690985,
@@ -377,9 +377,9 @@
         "total_time_final": "00:59:38",
         "total_time_brut": "01:05:14",
         "gramme_per_km": 6.49,
+        "gramme_total": 79.53,
         "mL_per_km": 48.66,
-        "mL_total": 596.5,
-        "gramme_total": 79.53
+        "mL_total": 596.5
       },
       "13": {
         "length": 965.6595700641602,
@@ -403,9 +403,9 @@
         "total_time_final": "01:04:42",
         "total_time_brut": "01:10:40",
         "gramme_per_km": 6.74,
+        "gramme_total": 86.27,
         "mL_per_km": 50.56,
-        "mL_total": 647.06,
-        "gramme_total": 86.27
+        "mL_total": 647.06
       },
       "14": {
         "length": 1019.5354577925416,
@@ -429,9 +429,9 @@
         "total_time_final": "01:09:38",
         "total_time_brut": "01:16:06",
         "gramme_per_km": 6.59,
+        "gramme_total": 92.87,
         "mL_per_km": 49.43,
-        "mL_total": 696.49,
-        "gramme_total": 92.87
+        "mL_total": 696.49
       },
       "15": {
         "length": 982.1434627451094,
@@ -455,9 +455,9 @@
         "total_time_final": "01:14:36",
         "total_time_brut": "01:21:32",
         "gramme_per_km": 6.61,
+        "gramme_total": 99.48,
         "mL_per_km": 49.59,
-        "mL_total": 746.08,
-        "gramme_total": 99.48
+        "mL_total": 746.08
       },
       "16": {
         "length": 1010.7527006364155,
@@ -481,9 +481,9 @@
         "total_time_final": "01:19:41",
         "total_time_brut": "01:26:58",
         "gramme_per_km": 6.78,
+        "gramme_total": 106.26,
         "mL_per_km": 50.88,
-        "mL_total": 796.96,
-        "gramme_total": 106.26
+        "mL_total": 796.96
       },
       "17": {
         "length": 1027.9190960571173,
@@ -507,9 +507,9 @@
         "total_time_final": "01:25:02",
         "total_time_brut": "01:32:25",
         "gramme_per_km": 7.12,
+        "gramme_total": 113.39,
         "mL_per_km": 53.44,
-        "mL_total": 850.4,
-        "gramme_total": 113.39
+        "mL_total": 850.4
       },
       "18": {
         "length": 969.0141788066353,
@@ -533,9 +533,9 @@
         "total_time_final": "01:30:22",
         "total_time_brut": "01:37:51",
         "gramme_per_km": 7.11,
+        "gramme_total": 120.5,
         "mL_per_km": 53.33,
-        "mL_total": 903.73,
-        "gramme_total": 120.5
+        "mL_total": 903.73
       },
       "19": {
         "length": 1003.4419386472885,
@@ -559,9 +559,9 @@
         "total_time_final": "01:35:30",
         "total_time_brut": "01:43:17",
         "gramme_per_km": 6.85,
+        "gramme_total": 127.35,
         "mL_per_km": 51.36,
-        "mL_total": 955.09,
-        "gramme_total": 127.35
+        "mL_total": 955.09
       },
       "20": {
         "length": 987.3365757684547,
@@ -585,9 +585,9 @@
         "total_time_final": "01:40:16",
         "total_time_brut": "01:48:43",
         "gramme_per_km": 6.36,
+        "gramme_total": 133.71,
         "mL_per_km": 47.72,
-        "mL_total": 1002.81,
-        "gramme_total": 133.71
+        "mL_total": 1002.81
       },
       "21": {
         "length": 997.8135303686851,
@@ -611,9 +611,9 @@
         "total_time_final": "01:45:26",
         "total_time_brut": "01:54:09",
         "gramme_per_km": 6.87,
+        "gramme_total": 140.58,
         "mL_per_km": 51.53,
-        "mL_total": 1054.34,
-        "gramme_total": 140.58
+        "mL_total": 1054.34
       },
       "22": {
         "length": 1053.208094813142,
@@ -637,9 +637,9 @@
         "total_time_final": "01:50:26",
         "total_time_brut": "01:59:35",
         "gramme_per_km": 6.68,
+        "gramme_total": 147.26,
         "mL_per_km": 50.11,
-        "mL_total": 1104.45,
-        "gramme_total": 147.26
+        "mL_total": 1104.45
       },
       "23": {
         "length": 945.6215094281612,
@@ -663,9 +663,9 @@
         "total_time_final": "01:56:16",
         "total_time_brut": "02:05:02",
         "gramme_per_km": 7.76,
+        "gramme_total": 155.02,
         "mL_per_km": 58.23,
-        "mL_total": 1162.68,
-        "gramme_total": 155.02
+        "mL_total": 1162.68
       },
       "24": {
         "length": 1000.8041417483801,
@@ -689,9 +689,9 @@
         "total_time_final": "02:01:27",
         "total_time_brut": "02:10:28",
         "gramme_per_km": 6.92,
+        "gramme_total": 161.94,
         "mL_per_km": 51.88,
-        "mL_total": 1214.56,
-        "gramme_total": 161.94
+        "mL_total": 1214.56
       },
       "25": {
         "length": 1005.3432630019885,
@@ -715,9 +715,9 @@
         "total_time_final": "02:06:13",
         "total_time_brut": "02:15:54",
         "gramme_per_km": 6.35,
+        "gramme_total": 168.3,
         "mL_per_km": 47.66,
-        "mL_total": 1262.22,
-        "gramme_total": 168.3
+        "mL_total": 1262.22
       },
       "26": {
         "length": 1004.4973291786563,
@@ -741,9 +741,9 @@
         "total_time_final": "02:12:18",
         "total_time_brut": "02:21:20",
         "gramme_per_km": 8.12,
+        "gramme_total": 176.42,
         "mL_per_km": 60.9,
-        "mL_total": 1323.12,
-        "gramme_total": 176.42
+        "mL_total": 1323.12
       },
       "27": {
         "length": 1018.3239830155472,
@@ -767,9 +767,9 @@
         "total_time_final": "02:17:23",
         "total_time_brut": "02:26:46",
         "gramme_per_km": 6.78,
+        "gramme_total": 183.2,
         "mL_per_km": 50.86,
-        "mL_total": 1373.97,
-        "gramme_total": 183.2
+        "mL_total": 1373.97
       },
       "28": {
         "length": 1002.484302669584,
@@ -793,9 +793,9 @@
         "total_time_final": "02:22:48",
         "total_time_brut": "02:32:13",
         "gramme_per_km": 7.22,
+        "gramme_total": 190.42,
         "mL_per_km": 54.16,
-        "mL_total": 1428.13,
-        "gramme_total": 190.42
+        "mL_total": 1428.13
       },
       "29": {
         "length": 1011.5077602049287,
@@ -819,9 +819,9 @@
         "total_time_final": "02:27:34",
         "total_time_brut": "02:37:39",
         "gramme_per_km": 6.34,
+        "gramme_total": 196.76,
         "mL_per_km": 47.56,
-        "mL_total": 1475.69,
-        "gramme_total": 196.76
+        "mL_total": 1475.69
       },
       "30": {
         "length": 964.9054329241162,
@@ -845,9 +845,9 @@
         "total_time_final": "02:33:22",
         "total_time_brut": "02:43:05",
         "gramme_per_km": 7.74,
+        "gramme_total": 204.5,
         "mL_per_km": 58.05,
-        "mL_total": 1533.74,
-        "gramme_total": 204.5
+        "mL_total": 1533.74
       },
       "31": {
         "length": 1072.5007032068895,
@@ -871,9 +871,9 @@
         "total_time_final": "02:39:09",
         "total_time_brut": "02:48:31",
         "gramme_per_km": 7.72,
+        "gramme_total": 212.22,
         "mL_per_km": 57.91,
-        "mL_total": 1591.65,
-        "gramme_total": 212.22
+        "mL_total": 1591.65
       },
       "32": {
         "length": 945.6335499849133,
@@ -897,9 +897,9 @@
         "total_time_final": "02:44:30",
         "total_time_brut": "02:53:57",
         "gramme_per_km": 7.12,
+        "gramme_total": 219.34,
         "mL_per_km": 53.41,
-        "mL_total": 1645.06,
-        "gramme_total": 219.34
+        "mL_total": 1645.06
       },
       "33": {
         "length": 974.2826092757107,
@@ -923,9 +923,9 @@
         "total_time_final": "02:49:45",
         "total_time_brut": "02:59:23",
         "gramme_per_km": 6.99,
+        "gramme_total": 226.34,
         "mL_per_km": 52.46,
-        "mL_total": 1697.52,
-        "gramme_total": 226.34
+        "mL_total": 1697.52
       },
       "34": {
         "length": 1010.0304601325873,
@@ -949,9 +949,9 @@
         "total_time_final": "02:55:03",
         "total_time_brut": "03:04:50",
         "gramme_per_km": 7.08,
+        "gramme_total": 233.42,
         "mL_per_km": 53.1,
-        "mL_total": 1750.62,
-        "gramme_total": 233.42
+        "mL_total": 1750.62
       },
       "35": {
         "length": 1024.7730065124995,
@@ -975,9 +975,9 @@
         "total_time_final": "03:00:21",
         "total_time_brut": "03:10:16",
         "gramme_per_km": 7.07,
+        "gramme_total": 240.48,
         "mL_per_km": 53.01,
-        "mL_total": 1803.63,
-        "gramme_total": 240.48
+        "mL_total": 1803.63
       },
       "36": {
         "length": 1022.1827089920798,
@@ -1001,9 +1001,9 @@
         "total_time_final": "03:05:23",
         "total_time_brut": "03:15:42",
         "gramme_per_km": 6.71,
+        "gramme_total": 247.2,
         "mL_per_km": 50.35,
-        "mL_total": 1853.98,
-        "gramme_total": 247.2
+        "mL_total": 1853.98
       },
       "37": {
         "length": 992.7722929411353,
@@ -1027,9 +1027,9 @@
         "total_time_final": "03:10:42",
         "total_time_brut": "03:21:08",
         "gramme_per_km": 7.08,
+        "gramme_total": 254.28,
         "mL_per_km": 53.12,
-        "mL_total": 1907.11,
-        "gramme_total": 254.28
+        "mL_total": 1907.11
       },
       "38": {
         "length": 991.2238295289883,
@@ -1053,9 +1053,9 @@
         "total_time_final": "03:16:13",
         "total_time_brut": "03:26:34",
         "gramme_per_km": 7.36,
+        "gramme_total": 261.64,
         "mL_per_km": 55.17,
-        "mL_total": 1962.27,
-        "gramme_total": 261.64
+        "mL_total": 1962.27
       },
       "39": {
         "length": 957.1787007934461,
@@ -1079,9 +1079,9 @@
         "total_time_final": "03:21:53",
         "total_time_brut": "03:32:01",
         "gramme_per_km": 7.56,
+        "gramme_total": 269.19,
         "mL_per_km": 56.68,
-        "mL_total": 2018.96,
-        "gramme_total": 269.19
+        "mL_total": 2018.96
       },
       "40": {
         "length": 1006.284051960365,
@@ -1105,9 +1105,9 @@
         "total_time_final": "03:27:16",
         "total_time_brut": "03:37:27",
         "gramme_per_km": 7.17,
+        "gramme_total": 276.37,
         "mL_per_km": 53.8,
-        "mL_total": 2072.76,
-        "gramme_total": 276.37
+        "mL_total": 2072.76
       },
       "41": {
         "length": 1020.9965402739061,
@@ -1131,9 +1131,9 @@
         "total_time_final": "03:32:18",
         "total_time_brut": "03:42:53",
         "gramme_per_km": 6.71,
+        "gramme_total": 283.08,
         "mL_per_km": 50.33,
-        "mL_total": 2123.09,
-        "gramme_total": 283.08
+        "mL_total": 2123.09
       },
       "42": {
         "length": 993.1804918287078,
@@ -1157,9 +1157,9 @@
         "total_time_final": "03:37:54",
         "total_time_brut": "03:48:19",
         "gramme_per_km": 7.46,
+        "gramme_total": 290.54,
         "mL_per_km": 55.93,
-        "mL_total": 2179.02,
-        "gramme_total": 290.54
+        "mL_total": 2179.02
       },
       "43": {
         "length": 1008.749744920995,
@@ -1183,9 +1183,9 @@
         "total_time_final": "03:43:14",
         "total_time_brut": "03:53:45",
         "gramme_per_km": 7.12,
+        "gramme_total": 297.65,
         "mL_per_km": 53.38,
-        "mL_total": 2232.4,
-        "gramme_total": 297.65
+        "mL_total": 2232.4
       },
       "44": {
         "length": 999.691479395541,
@@ -1209,9 +1209,9 @@
         "total_time_final": "03:49:06",
         "total_time_brut": "03:59:11",
         "gramme_per_km": 7.82,
+        "gramme_total": 305.48,
         "mL_per_km": 58.68,
-        "mL_total": 2291.07,
-        "gramme_total": 305.48
+        "mL_total": 2291.07
       },
       "45": {
         "length": 972.8381951088729,
@@ -1235,9 +1235,9 @@
         "total_time_final": "03:54:26",
         "total_time_brut": "04:04:38",
         "gramme_per_km": 7.11,
+        "gramme_total": 312.58,
         "mL_per_km": 53.3,
-        "mL_total": 2344.37,
-        "gramme_total": 312.58
+        "mL_total": 2344.37
       },
       "46": {
         "length": 1015.6951993446906,
@@ -1261,9 +1261,9 @@
         "total_time_final": "03:59:46",
         "total_time_brut": "04:10:04",
         "gramme_per_km": 7.13,
+        "gramme_total": 319.71,
         "mL_per_km": 53.45,
-        "mL_total": 2397.82,
-        "gramme_total": 319.71
+        "mL_total": 2397.82
       },
       "47": {
         "length": 1026.7026330831711,
@@ -1287,9 +1287,9 @@
         "total_time_final": "04:04:52",
         "total_time_brut": "04:15:30",
         "gramme_per_km": 6.79,
+        "gramme_total": 326.5,
         "mL_per_km": 50.91,
-        "mL_total": 2448.73,
-        "gramme_total": 326.5
+        "mL_total": 2448.73
       },
       "48": {
         "length": 972.9585508575674,
@@ -1313,9 +1313,9 @@
         "total_time_final": "04:10:17",
         "total_time_brut": "04:20:56",
         "gramme_per_km": 7.23,
+        "gramme_total": 333.73,
         "mL_per_km": 54.23,
-        "mL_total": 2502.96,
-        "gramme_total": 333.73
+        "mL_total": 2502.96
       },
       "49": {
         "length": 993.1807927260134,
@@ -1339,9 +1339,9 @@
         "total_time_final": "04:15:53",
         "total_time_brut": "04:26:22",
         "gramme_per_km": 7.45,
+        "gramme_total": 341.18,
         "mL_per_km": 55.88,
-        "mL_total": 2558.84,
-        "gramme_total": 341.18
+        "mL_total": 2558.84
       },
       "50": {
         "length": 1045.0935011204235,
@@ -1365,9 +1365,9 @@
         "total_time_final": "04:21:57",
         "total_time_brut": "04:31:49",
         "gramme_per_km": 8.11,
+        "gramme_total": 349.29,
         "mL_per_km": 60.81,
-        "mL_total": 2619.65,
-        "gramme_total": 349.29
+        "mL_total": 2619.65
       },
       "51": {
         "length": 972.079723041369,
@@ -1391,9 +1391,9 @@
         "total_time_final": "04:27:37",
         "total_time_brut": "04:37:15",
         "gramme_per_km": 7.54,
+        "gramme_total": 356.83,
         "mL_per_km": 56.54,
-        "mL_total": 2676.19,
-        "gramme_total": 356.83
+        "mL_total": 2676.19
       },
       "52": {
         "length": 981.0538294327922,
@@ -1417,9 +1417,9 @@
         "total_time_final": "04:33:17",
         "total_time_brut": "04:42:41",
         "gramme_per_km": 7.57,
+        "gramme_total": 364.39,
         "mL_per_km": 56.76,
-        "mL_total": 2732.96,
-        "gramme_total": 364.39
+        "mL_total": 2732.96
       },
       "53": {
         "length": 993.3068510526857,
@@ -1443,9 +1443,9 @@
         "total_time_final": "04:38:51",
         "total_time_brut": "04:48:07",
         "gramme_per_km": 7.41,
+        "gramme_total": 371.81,
         "mL_per_km": 55.61,
-        "mL_total": 2788.57,
-        "gramme_total": 371.81
+        "mL_total": 2788.57
       },
       "54": {
         "length": 1062.816193721454,
@@ -1469,9 +1469,9 @@
         "total_time_final": "04:44:30",
         "total_time_brut": "04:53:33",
         "gramme_per_km": 7.54,
+        "gramme_total": 379.34,
         "mL_per_km": 56.52,
-        "mL_total": 2845.09,
-        "gramme_total": 379.34
+        "mL_total": 2845.09
       },
       "55": {
         "length": 985.3066739167314,
@@ -1495,9 +1495,9 @@
         "total_time_final": "04:49:47",
         "total_time_brut": "04:58:59",
         "gramme_per_km": 7.05,
+        "gramme_total": 386.39,
         "mL_per_km": 52.87,
-        "mL_total": 2897.95,
-        "gramme_total": 386.39
+        "mL_total": 2897.95
       },
       "56": {
         "length": 979.9245852637795,
@@ -1521,9 +1521,9 @@
         "total_time_final": "04:55:44",
         "total_time_brut": "05:04:26",
         "gramme_per_km": 7.92,
+        "gramme_total": 394.32,
         "mL_per_km": 59.43,
-        "mL_total": 2957.38,
-        "gramme_total": 394.32
+        "mL_total": 2957.38
       },
       "57": {
         "length": 1005.3662464690123,
@@ -1547,9 +1547,9 @@
         "total_time_final": "05:01:10",
         "total_time_brut": "05:09:52",
         "gramme_per_km": 7.24,
+        "gramme_total": 401.56,
         "mL_per_km": 54.3,
-        "mL_total": 3011.69,
-        "gramme_total": 401.56
+        "mL_total": 3011.69
       },
       "58": {
         "length": 983.1521786128379,
@@ -1573,9 +1573,9 @@
         "total_time_final": "05:06:23",
         "total_time_brut": "05:15:18",
         "gramme_per_km": 6.97,
+        "gramme_total": 408.53,
         "mL_per_km": 52.27,
-        "mL_total": 3063.96,
-        "gramme_total": 408.53
+        "mL_total": 3063.96
       },
       "59": {
         "length": 991.7570929012775,
@@ -1599,9 +1599,9 @@
         "total_time_final": "05:11:56",
         "total_time_brut": "05:20:44",
         "gramme_per_km": 7.39,
+        "gramme_total": 415.92,
         "mL_per_km": 55.43,
-        "mL_total": 3119.39,
-        "gramme_total": 415.92
+        "mL_total": 3119.39
       },
       "60": {
         "length": 1023.5117079333829,
@@ -1625,9 +1625,9 @@
         "total_time_final": "05:17:49",
         "total_time_brut": "05:26:10",
         "gramme_per_km": 7.84,
+        "gramme_total": 423.76,
         "mL_per_km": 58.79,
-        "mL_total": 3178.18,
-        "gramme_total": 423.76
+        "mL_total": 3178.18
       },
       "61": {
         "length": 1001.6271022851042,
@@ -1651,9 +1651,9 @@
         "total_time_final": "05:23:07",
         "total_time_brut": "05:31:36",
         "gramme_per_km": 7.08,
+        "gramme_total": 430.84,
         "mL_per_km": 53.09,
-        "mL_total": 3231.26,
-        "gramme_total": 430.84
+        "mL_total": 3231.26
       },
       "62": {
         "length": 972.3069839944865,
@@ -1677,9 +1677,9 @@
         "total_time_final": "05:29:11",
         "total_time_brut": "05:37:03",
         "gramme_per_km": 8.09,
+        "gramme_total": 438.92,
         "mL_per_km": 60.65,
-        "mL_total": 3291.92,
-        "gramme_total": 438.92
+        "mL_total": 3291.92
       },
       "63": {
         "length": 1071.9273256407068,
@@ -1703,9 +1703,9 @@
         "total_time_final": "05:34:58",
         "total_time_brut": "05:42:29",
         "gramme_per_km": 7.71,
+        "gramme_total": 446.63,
         "mL_per_km": 57.8,
-        "mL_total": 3349.72,
-        "gramme_total": 446.63
+        "mL_total": 3349.72
       },
       "64": {
         "length": 972.3636275851204,
@@ -1729,9 +1729,9 @@
         "total_time_final": "05:40:46",
         "total_time_brut": "05:47:55",
         "gramme_per_km": 7.74,
+        "gramme_total": 454.36,
         "mL_per_km": 58.01,
-        "mL_total": 3407.73,
-        "gramme_total": 454.36
+        "mL_total": 3407.73
       },
       "65": {
         "length": 983.1607903136154,
@@ -1755,9 +1755,9 @@
         "total_time_final": "05:47:08",
         "total_time_brut": "05:53:21",
         "gramme_per_km": 8.5,
+        "gramme_total": 462.87,
         "mL_per_km": 63.76,
-        "mL_total": 3471.49,
-        "gramme_total": 462.87
+        "mL_total": 3471.49
       },
       "66": {
         "length": 984.7227129192821,
@@ -1781,9 +1781,9 @@
         "total_time_final": "05:52:32",
         "total_time_brut": "05:58:47",
         "gramme_per_km": 7.19,
+        "gramme_total": 470.06,
         "mL_per_km": 53.96,
-        "mL_total": 3525.45,
-        "gramme_total": 470.06
+        "mL_total": 3525.45
       },
       "67": {
         "length": 998.5499874475049,
@@ -1807,9 +1807,9 @@
         "total_time_final": "05:58:07",
         "total_time_brut": "06:04:14",
         "gramme_per_km": 7.44,
+        "gramme_total": 477.5,
         "mL_per_km": 55.8,
-        "mL_total": 3581.26,
-        "gramme_total": 477.5
+        "mL_total": 3581.26
       },
       "68": {
         "length": 1002.7726519086058,
@@ -1833,9 +1833,9 @@
         "total_time_final": "06:04:05",
         "total_time_brut": "06:09:40",
         "gramme_per_km": 7.95,
+        "gramme_total": 485.46,
         "mL_per_km": 59.66,
-        "mL_total": 3640.92,
-        "gramme_total": 485.46
+        "mL_total": 3640.92
       },
       "69": {
         "length": 980.2282154148874,
@@ -1859,9 +1859,9 @@
         "total_time_final": "06:09:48",
         "total_time_brut": "06:15:06",
         "gramme_per_km": 7.62,
+        "gramme_total": 493.07,
         "mL_per_km": 57.13,
-        "mL_total": 3698.05,
-        "gramme_total": 493.07
+        "mL_total": 3698.05
       },
       "70": {
         "length": 1062.9882668132157,
@@ -1885,9 +1885,9 @@
         "total_time_final": "06:15:17",
         "total_time_brut": "06:20:32",
         "gramme_per_km": 7.31,
+        "gramme_total": 500.39,
         "mL_per_km": 54.86,
-        "mL_total": 3752.91,
-        "gramme_total": 500.39
+        "mL_total": 3752.91
       },
       "71": {
         "length": 962.8202027574334,
@@ -1911,9 +1911,9 @@
         "total_time_final": "06:20:55",
         "total_time_brut": "06:25:58",
         "gramme_per_km": 7.52,
+        "gramme_total": 507.9,
         "mL_per_km": 56.37,
-        "mL_total": 3809.28,
-        "gramme_total": 507.9
+        "mL_total": 3809.28
       },
       "72": {
         "length": 975.7619180205024,
@@ -1937,9 +1937,9 @@
         "total_time_final": "06:26:57",
         "total_time_brut": "06:31:24",
         "gramme_per_km": 8.04,
+        "gramme_total": 515.94,
         "mL_per_km": 60.3,
-        "mL_total": 3869.58,
-        "gramme_total": 515.94
+        "mL_total": 3869.58
       },
       "73": {
         "length": 1081.75473460255,
@@ -1963,9 +1963,9 @@
         "total_time_final": "06:32:27",
         "total_time_brut": "06:36:51",
         "gramme_per_km": 7.34,
+        "gramme_total": 523.28,
         "mL_per_km": 55.01,
-        "mL_total": 3924.6,
-        "gramme_total": 523.28
+        "mL_total": 3924.6
       },
       "74": {
         "length": 925.0552760433334,
@@ -1989,9 +1989,9 @@
         "total_time_final": "06:37:56",
         "total_time_brut": "06:42:17",
         "gramme_per_km": 7.31,
+        "gramme_total": 530.59,
         "mL_per_km": 54.81,
-        "mL_total": 3979.4,
-        "gramme_total": 530.59
+        "mL_total": 3979.4
       },
       "75": {
         "length": 997.2977730161696,
@@ -2015,9 +2015,9 @@
         "total_time_final": "06:43:46",
         "total_time_brut": "06:47:43",
         "gramme_per_km": 7.78,
+        "gramme_total": 538.37,
         "mL_per_km": 58.36,
-        "mL_total": 4037.76,
-        "gramme_total": 538.37
+        "mL_total": 4037.76
       },
       "76": {
         "length": 1063.6402754879236,
@@ -2041,9 +2041,9 @@
         "total_time_final": "06:49:41",
         "total_time_brut": "06:53:09",
         "gramme_per_km": 7.89,
+        "gramme_total": 546.26,
         "mL_per_km": 59.16,
-        "mL_total": 4096.92,
-        "gramme_total": 546.26
+        "mL_total": 4096.92
       },
       "77": {
         "length": 943.2891940986194,
@@ -2067,9 +2067,9 @@
         "total_time_final": "06:55:35",
         "total_time_brut": "06:58:35",
         "gramme_per_km": 7.87,
+        "gramme_total": 554.12,
         "mL_per_km": 59.0,
-        "mL_total": 4155.91,
-        "gramme_total": 554.12
+        "mL_total": 4155.91
       },
       "78": {
         "length": 1017.9134767921112,
@@ -2093,9 +2093,9 @@
         "total_time_final": "07:01:28",
         "total_time_brut": "07:04:02",
         "gramme_per_km": 7.84,
+        "gramme_total": 561.96,
         "mL_per_km": 58.82,
-        "mL_total": 4214.73,
-        "gramme_total": 561.96
+        "mL_total": 4214.73
       },
       "79": {
         "length": 972.6430506011752,
@@ -2119,9 +2119,9 @@
         "total_time_final": "07:07:24",
         "total_time_brut": "07:09:28",
         "gramme_per_km": 7.92,
+        "gramme_total": 569.89,
         "mL_per_km": 59.41,
-        "mL_total": 4274.14,
-        "gramme_total": 569.89
+        "mL_total": 4274.14
       },
       "80": {
         "length": 998.3560759357861,
@@ -2145,9 +2145,9 @@
         "total_time_final": "07:13:19",
         "total_time_brut": "07:14:54",
         "gramme_per_km": 7.88,
+        "gramme_total": 577.77,
         "mL_per_km": 59.12,
-        "mL_total": 4333.26,
-        "gramme_total": 577.77
+        "mL_total": 4333.26
       },
       "81": {
         "length": 1013.7019125599647,
@@ -2171,9 +2171,9 @@
         "total_time_final": "07:19:14",
         "total_time_brut": "07:20:20",
         "gramme_per_km": 7.88,
+        "gramme_total": 585.65,
         "mL_per_km": 59.12,
-        "mL_total": 4392.38,
-        "gramme_total": 585.65
+        "mL_total": 4392.38
       },
       "82": {
         "length": 1018.7421613645903,
@@ -2197,9 +2197,9 @@
         "total_time_final": "07:25:12",
         "total_time_brut": "07:25:46",
         "gramme_per_km": 7.95,
+        "gramme_total": 593.6,
         "mL_per_km": 59.65,
-        "mL_total": 4452.03,
-        "gramme_total": 593.6
+        "mL_total": 4452.03
       },
       "83": {
         "length": 741.1804782947285,
@@ -2223,86 +2223,94 @@
         "total_time_final": "07:29:59",
         "total_time_brut": "07:29:59",
         "gramme_per_km": 6.39,
+        "gramme_total": 599.99,
         "mL_per_km": 47.93,
-        "mL_total": 4499.95,
-        "gramme_total": 599.99
+        "mL_total": 4499.95
       }
     },
-    "total_hour": "07:29:59"
+    "total_hour": "07:29:59",
+    "impact": {
+      "total_time_second": 27000,
+      "secondes_perdues": 0
+    }
   },
   "weather": {
     "wind": {
       "wind_speed": [
-        7.38,
-        12.168,
-        12.492,
-        17.496000000000002,
-        19.08,
-        14.832,
-        14.652000000000001,
-        10.404,
-        11.304,
-        16.344,
-        17.82,
-        22.32,
-        16.38,
-        18.252000000000002,
-        24.588
+        10.728,
+        11.592,
+        10.044,
+        14.184,
+        19.188000000000002,
+        17.1,
+        21.708000000000002,
+        19.259999999999998,
+        25.452,
+        27.324,
+        29.664,
+        34.56,
+        31.680000000000003,
+        29.448,
+        25.272,
+        21.708000000000002
       ],
       "wind_directions": [
-        164,
-        152,
-        151,
-        144,
-        148,
-        205,
-        235,
-        208,
-        205,
-        200,
-        192,
-        191,
-        217,
-        174,
-        173
+        124,
+        93,
+        94,
+        127,
+        131,
+        115,
+        138,
+        128,
+        203,
+        214,
+        230,
+        229,
+        236,
+        240,
+        241,
+        229
       ],
-      "wind_departure": 164
+      "wind_departure": 124
     },
     "temp": {
       "temperatures": [
-        7.990000000000009,
-        8.120000000000005,
-        7.960000000000036,
-        8.78000000000003,
-        8.800000000000011,
-        8.370000000000005,
-        6.460000000000036,
-        5.53000000000003,
-        5.850000000000023,
-        4.960000000000036,
-        7.510000000000048,
-        10.450000000000045,
-        7.100000000000023,
-        7.520000000000039,
-        7.100000000000023
+        5.180000000000007,
+        4.760000000000048,
+        5.240000000000009,
+        9.370000000000005,
+        14.32000000000005,
+        13.590000000000032,
+        11.160000000000025,
+        9.830000000000041,
+        8.410000000000025,
+        7.930000000000007,
+        7.470000000000027,
+        8.240000000000009,
+        10.129999999999995,
+        10.910000000000025,
+        9.53000000000003,
+        7.82000000000005
       ],
-      "temp_max": 10,
+      "temp_max": 14,
       "temp_min": 5,
-      "temp_avg": 8
+      "temp_avg": 9
     },
     "rain": {
       "risk_of_rain": [
-        "Rain",
-        "Rain",
-        "Rain",
-        "Rain",
-        "Rain",
-        "Rain",
         "Clouds",
         "Clouds",
         "Clouds",
         "Clouds",
         "Clouds",
+        "Rain",
+        "Rain",
+        "Rain",
+        "Rain",
+        "Rain",
+        "Rain",
+        "Rain",
         "Clouds",
         "Rain",
         "Clouds",
