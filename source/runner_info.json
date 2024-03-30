@@ -307,5 +307,40 @@
             "a_temp": 0,
             "previous_place": 8
         }
-    }
+    },
+
+
+    
+        "nicolasurien": {
+            "infos": {
+                "nom": "Urien",
+                "prenom": "Nicolas",
+                "birthdate": "17/12/1995",
+                "cote": 730,
+                "nationality": "France",
+                "Team": "Satuc Toulouse Athle",
+                "personalized_message":"Good luck for this race, I'm 100% that you will feel strong",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"M",
+                "poids":65,     
+                "taille":182     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Championnat de France de Trail Long",
+                "profil_split": -8,
+                "objectif_heure": 6,
+                "objectif_minute": 10,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 15,
+                "a_split": 1,
+                "a_drift": 2,
+                "a_vent": 0,
+                "a_temp": 0,
+                "previous_place": 51
+            }
+
+        }
 }

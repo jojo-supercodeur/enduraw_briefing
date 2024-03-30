@@ -455,5 +455,99 @@
         "date_de_creation": 1980,
         "zoom_de_la_carte": 12,
         "start_time": "2024-04-01"
+    },
+    "Championnat de France de Trail Long": {
+        "ravitos": {
+            "1": {
+                "nom": "Aid station 1",
+                "dist": 9
+            },
+            "2": {
+                "nom": "Buis les Baronnies",
+                "dist": 19.4
+            },
+            "3": {
+                "nom": "Aid sation 3 - Drop",
+                "dist": 30.9
+            },
+            "4": {
+                "nom": "Le Poët en Percy",
+                "dist": 41.5
+            },
+            "5": {
+                "nom": "Finish",
+                "dist": 58
+            }
+        },
+        "longueur_off": 0,
+        "deniiiv_off": 0,
+        "record_feminin": "blabla",
+        "record_masculin": "blabla",
+        "date_de_creation": 0,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-04-01",
+        "start_hour": "blabla"
+    },
+    "Championnat de France de Trail Court": {
+        "ravitos": {
+            "1": {
+                "nom": "Buc",
+                "dist": 24.3
+            },
+            "2": {
+                "nom": "Meudon",
+                "dist": 47.3
+            },
+            "3": {
+                "nom": "Chaville",
+                "dist": 57.7
+            },
+            "4": {
+                "nom": "Saint Cloud",
+                "dist": 71.0
+            },
+            "5": {
+                "nom": "Finish",
+                "dist": 82.0
+            }
+        },
+        "longueur_off": 82,
+        "deniiiv_off": 1245,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-04-01"
+    },
+    "Paris Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "Buc",
+                "dist": 24.3
+            },
+            "2": {
+                "nom": "Meudon",
+                "dist": 47.3
+            },
+            "3": {
+                "nom": "Chaville",
+                "dist": 57.7
+            },
+            "4": {
+                "nom": "Saint Cloud",
+                "dist": 71.0
+            },
+            "5": {
+                "nom": "Finish",
+                "dist": 82.0
+            }
+        },
+        "longueur_off": 82,
+        "deniiiv_off": 1245,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-04-01"
     }
 }
