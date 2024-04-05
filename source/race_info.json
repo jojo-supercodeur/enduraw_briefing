@@ -480,13 +480,14 @@
             }
         },
         "longueur_off": 0,
-        "deniiiv_off": 0,
+        "deniiiv_off": 2950,
+        "deniiiv_negatiiif_off": 2950,
         "record_feminin": "blabla",
         "record_masculin": "blabla",
         "date_de_creation": 0,
         "zoom_de_la_carte": 12,
-        "start_time": "2024-04-01",
-        "start_hour": "blabla"
+        "start_time": "2024-04-07",
+        "start_hour": "7"
     },
     "Championnat de France de Trail Court": {
         "ravitos": {
@@ -511,7 +512,7 @@
                 "dist": 82.0
             }
         },
-        "longueur_off": 82,
+        "longueur_off": 82000,
         "deniiiv_off": 1245,
         "record_feminin": "12h54",
         "record_masculin": "11h03",
@@ -542,12 +543,14 @@
                 "dist": 82.0
             }
         },
-        "longueur_off": 82,
-        "deniiiv_off": 1245,
+        "longueur_off": 42.195,
+        "deniiiv_off": 269,
+        "deniiiv_negatiiif_off": 260,
         "record_feminin": "12h54",
         "record_masculin": "11h03",
         "date_de_creation": 1980,
         "zoom_de_la_carte": 12,
-        "start_time": "2024-04-01"
+        "start_time": "2024-04-07",
+        "start_hour": "8"
     }
 }
