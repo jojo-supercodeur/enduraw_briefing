@@ -523,24 +523,54 @@
     "Paris Marathon": {
         "ravitos": {
             "1": {
-                "nom": "Buc",
-                "dist": 24.3
+                "nom": "5k",
+                "dist": 5,
+                "ravito": "water"
             },
             "2": {
-                "nom": "Meudon",
-                "dist": 47.3
+                "nom": "10k",
+                "dist": 10,
+                "ravito": "226 gel Stawberries Banana"
             },
             "3": {
-                "nom": "Chaville",
-                "dist": 57.7
+                "nom": "15k",
+                "dist": 15,
+                "ravito": "water"
             },
             "4": {
-                "nom": "Saint Cloud",
-                "dist": 71.0
+                "nom": "20k",
+                "dist": 20,
+                "ravito": "226 gel Stawberries Banana"
             },
             "5": {
+                "nom": "semi",
+                "dist": 21.1,
+                "ravito": "water"
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25,
+                "ravito": "226 gel cola"
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30,
+                "ravito": "water"
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35,
+                "ravito": "226 gel cola"
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40,
+                "ravito": "water"
+            },
+            "10": {
                 "nom": "Finish",
-                "dist": 82.0
+                "dist": 42.195,
+                "ravito": "water"
             }
         },
         "longueur_off": 42.195,
