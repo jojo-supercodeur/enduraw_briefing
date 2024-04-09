@@ -36,11 +36,14 @@
         },
         "longueur_off": 80.9,
         "deniiiv_off": 3500,
+        "deniiiv_negatiiif_off": 3500,
         "record_feminin": "12h54",
         "record_masculin": "11h03",
         "date_de_creation": 1980,
         "zoom_de_la_carte": 12,
-        "start_time": "2024-03-17"
+        "start_time": "2024-04-15",
+        "start_hour": "8"
+
     },
     "CoteRotie": {
         "ravitos": {
@@ -581,6 +584,114 @@
         "date_de_creation": 1980,
         "zoom_de_la_carte": 12,
         "start_time": "2024-04-07",
+        "start_hour": "8"
+    },
+    
+    "Boston Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195
+            }
+        },
+        "longueur_off": 42.195,
+        "deniiiv_off": 248,
+        "deniiiv_negatiiif_off": 388,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-04-15",
+        "start_hour": "8"
+    },
+    
+    "London Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195
+            }
+        },
+        "longueur_off": 42.195,
+        "deniiiv_off": 127,
+        "deniiiv_negatiiif_off": 161,
+        "record_feminin": "12h54",
+        "record_masculin": "11h03",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-04-15",
         "start_hour": "8"
     }
 }

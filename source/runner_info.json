@@ -202,6 +202,13 @@
             "previous_place": 149
         }
     },
+
+
+
+
+
+
+
     "danielmateo": {
         "infos": {
             "nom": "Mateo Angulo",
@@ -227,6 +234,12 @@
             "previous_place": 21
         }
     },
+
+
+
+
+
+
     "anaisquemener": {
         "infos": {
             "nom": "Quemener",
@@ -254,6 +267,13 @@
             "previous_place": 9
         }
     },
+
+
+
+
+
+
+
     "melinerollin": {
         "infos": {
             "nom": "Quemener",
@@ -281,6 +301,14 @@
             "previous_place": 9
         }
     },
+
+
+
+
+
+
+
+
     "duncanperillat": {
         "infos": {
             "nom": "Perillat",
@@ -308,6 +336,10 @@
             "previous_place": 8
         }
     },
+
+
+
+    
 
 
     
@@ -350,7 +382,7 @@
             "infos": {
                 "nom": "Talamon",
                 "prenom": "Marguerite",
-                "birthdate": "17/12/1995",
+                "birthdate": "03/03/2000",
                 "cote": 0,
                 "nationality": "France",
                 "Team": "PUC",
@@ -386,7 +418,7 @@
             "infos": {
                 "nom": "Durey",
                 "prenom": "Amandine",
-                "birthdate": "03/03/2000",
+                "birthdate": "07/02/1987",
                 "cote": 0,
                 "nationality": "France",
                 "Team": "Triathlon Vast",
@@ -411,6 +443,119 @@
                 "a_vent": 0,
                 "a_temp": 0,
                 "previous_place": 14319
+            }
+
+        },
+
+
+
+
+
+        "hellenobiri": {
+            "infos": {
+                "nom": "Obiri",
+                "prenom": "Hellen",
+                "birthdate": "13/12/1989",
+                "cote": 0,
+                "nationality": "Kenya",
+                "Team": "ON",
+                "personalized_message":"Good luck for this race, I'm 100% that you will feel strong",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":65, 
+                "sexe":"F",
+                "poids":50,     
+                "taille":161     
+            },
+            "Race": {
+                "template": "marathon",
+                "course": "Boston Marathon",
+                "profil_split": -8,
+                "objectif_heure": 2,
+                "objectif_minute": 20,
+                "objectif_seconde": 0,
+                "threshold": 2,
+                "a_gradient": 15,
+                "a_split": 1,
+                "a_drift": 2,
+                "a_vent": 0,
+                "a_temp": 0,
+                "previous_place": 1
+            }
+
+        },
+
+
+
+
+
+
+        "thomaslorblanchet": {
+            "infos": {
+                "nom": "Lorblanchet",
+                "prenom": "Thomas",
+                "birthdate": "26/05/1980",
+                "cote": 892,
+                "nationality": "France",
+                "Team": "Asics",
+                "personalized_message":"Good luck for this race, I'm 100% that you will feel strong",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"M",
+                "poids":67,     
+                "taille":179     
+            },
+            "Race": {
+                "template": "marathon",
+                "course": "Grand Raid des Templiers",
+                "profil_split": -8,
+                "objectif_heure": 7,
+                "objectif_minute": 16,
+                "objectif_seconde": 0,
+                "threshold": 2,
+                "a_gradient": 15,
+                "a_split": 1,
+                "a_drift": 2,
+                "a_vent": 0,
+                "a_temp": 0,
+                "previous_place": 3
+            }
+
+        },
+
+
+
+
+
+
+        "joshuarowe": {
+            "infos": {
+                "nom": "Rowe",
+                "prenom": "Joshua",
+                "birthdate": "01/01/1987",
+                "cote": 0,
+                "nationality": "Great Britain",
+                "Team": "Maurten",
+                "personalized_message":"Good luck for this race, I'm 100% that you will feel strong",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":85, 
+                "sexe":"M",
+                "poids":70,     
+                "taille":175     
+            },
+            "Race": {
+                "template": "marathon",
+                "course": "London Marathon",
+                "profil_split": -8,
+                "objectif_heure": 2,
+                "objectif_minute": 30,
+                "objectif_seconde": 0,
+                "threshold": 2,
+                "a_gradient": 15,
+                "a_split": 1,
+                "a_drift": 2,
+                "a_vent": 0,
+                "a_temp": 0,
+                "previous_place": 127
             }
 
         }
