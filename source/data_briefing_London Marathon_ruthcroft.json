@@ -1,0 +1,43 @@
+{
+    "athlete": {
+        "username": "ruthcroft",
+        "firstname": "Croft",
+        "name": "Ruth",
+        "age": 35,
+        "cote": 925,
+        "team": "Adidas Terrex",
+        "country": "New Zealand",
+        "coef_drift": "108%",
+        "personalized_message": "Good luck for this race Ruth, I'm sure you'll destroy it"
+    },
+    "race": {
+        "name": "London Marathon",
+        "index": 0,
+        "aid_station": {},
+        "total_distance_brut": 42116.77,
+        "total_distance": 42195.0,
+        "coef_corrected_distance": 1.00185736,
+        "total_uphill_brut": 211,
+        "total_uphill": 127.0,
+        "coef_corrected_elevation_positive": 0.60189573,
+        "total_downhill_brut": 251,
+        "total_downhill": 161.0,
+        "coef_corrected_elevation_negative": 0.64143426,
+        "longest_ascent": 9,
+        "longest_descent": 26,
+        "max_altitude": 47.0,
+        "min_altitude": 0.0,
+        "average_altitude": 6.53
+    },
+    "weather": {
+        "wind": {},
+        "temp": {},
+        "rain": {
+            "risk_of_rain": "WIP"
+        }
+    },
+    "distance_above": 0,
+    "segments_above": [],
+    "threshold": 8,
+    "map": "ok"
+}

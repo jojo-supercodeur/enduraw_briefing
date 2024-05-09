@@ -558,5 +558,77 @@
                 "previous_place": 127
             }
 
+        },
+
+
+        "petterengdahl": {
+            "infos": {
+                "nom": "Petter",
+                "prenom": "Engdahl",
+                "birthdate": "23/07/1994",
+                "cote": 925,
+                "nationality": "Sweden",
+                "Team": "Adidas Terrex",
+                "personalized_message":"Good luck for this race Petter, same race than 2022",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"M",
+                "poids":59,     
+                "taille":170     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Transvulcania",
+                "profil_split": 108,
+                "objectif_heure": 7,
+                "objectif_minute": 2,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            }
+        
+        },
+
+
+        "ruthcroft": {
+            "infos": {
+                "nom": "Croft",
+                "prenom": "Ruth",
+                "birthdate": "15/01/1989",
+                "cote": 925,
+                "nationality": "New Zealand",
+                "Team": "Adidas Terrex",
+                "personalized_message":"Good luck for this race Ruth, I'm sure you'll destroy it",
+                "best_nutrition_brand":"Energy Spring",
+                "energy_consumption":70, 
+                "sexe":"F",
+                "poids":49,     
+                "taille":170     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Transvulcania",
+                "profil_split": 108,
+                "objectif_heure": 8,
+                "objectif_minute": 4,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            }
+        
         }
+
+
+
+
 }

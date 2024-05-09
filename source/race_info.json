@@ -694,4 +694,56 @@
         "start_time": "2024-04-15",
         "start_hour": "8"
     }
+
+
+    ,
+    "Transvulcania": {
+        "ravitos": {
+            "1": {
+                "nom": "Canarios",
+                "dist": 7.8
+            },
+            "2": {
+                "nom": "Deseadas",
+                "dist": 17.3
+            },
+            "3": {
+                "nom": "Pillar",
+                "dist": 24.9
+            },
+            "4": {
+                "nom": "Reventon",
+                "dist": 31.9
+            },
+            "5": {
+                "nom": "Cruz",
+                "dist": 47.2
+            },
+            "6": {
+                "nom": "Roque",
+                "dist": 51.6
+            },
+            "7": {
+                "nom": "Time",
+                "dist": 61.7
+            },
+            "8": {
+                "nom": "Tazacorte",
+                "dist": 69.1
+            },
+            "9": {
+                "nom": "Finish",
+                "dist": 74.2
+            }
+        },
+        "longueur_off": 74.2,
+        "deniiiv_off": 4405,
+        "deniiiv_negatiiif_off": 4111,
+        "record_feminin": "08h04:16",
+        "record_masculin": "06h52:39",
+        "date_de_creation": 2009,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-05-11",
+        "start_hour":"6"
+    }
 }
