@@ -306,67 +306,9 @@
         "zoom_de_la_carte": 11,
         "start_time": "2024-02-07"
     },
-    "Olympics Marathon": {
-        "ravitos": {
-            "1": {
-                "nom": "5k",
-                "dist": 5,
-                "ravito": "water"
-            },
-            "2": {
-                "nom": "10k",
-                "dist": 10,
-                "ravito": "226 gel Stawberries Banana"
-            },
-            "3": {
-                "nom": "15k",
-                "dist": 15,
-                "ravito": "water"
-            },
-            "4": {
-                "nom": "20k",
-                "dist": 20,
-                "ravito": "226 gel Stawberries Banana"
-            },
-            "5": {
-                "nom": "semi",
-                "dist": 21.1,
-                "ravito": "water"
-            },
-            "6": {
-                "nom": "25k",
-                "dist": 25,
-                "ravito": "226 gel cola"
-            },
-            "7": {
-                "nom": "30k",
-                "dist": 30,
-                "ravito": "water"
-            },
-            "8": {
-                "nom": "35k",
-                "dist": 35,
-                "ravito": "226 gel cola"
-            },
-            "9": {
-                "nom": "40k",
-                "dist": 40,
-                "ravito": "water"
-            },
-            "10": {
-                "nom": "Finish",
-                "dist": 42.195,
-                "ravito": "water"
-            }
-        },
-        "longueur_off": 0,
-        "deniiiv_off": 0,
-        "record_feminin": "02h22'31",
-        "record_masculin": "2h05'06",
-        "date_de_creation": -50,
-        "zoom_de_la_carte": 12,
-        "start_time": "2024-03-17"
-    },
+
+
+
     "Sevilla marathon": {
         "ravitos": {
             "1": {
@@ -694,10 +636,8 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-04-15",
         "start_hour": "8"
-    }
-
-
-    ,
+    },
+    
     "Transvulcania": {
         "ravitos": {
             "1": {
@@ -746,5 +686,60 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-05-11",
         "start_hour":"6"
+    },
+
+    
+    "Olympics Marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20
+            },
+            "5": {
+                "nom": "semi",
+                "dist": 21.1
+            },
+            "6": {
+                "nom": "25k",
+                "dist": 25
+            },
+            "7": {
+                "nom": "30k",
+                "dist": 30
+            },
+            "8": {
+                "nom": "35k",
+                "dist": 35
+            },
+            "9": {
+                "nom": "40k",
+                "dist": 40
+            },
+            "10": {
+                "nom": "Finish",
+                "dist": 42.195
+            }
+        },
+        "longueur_off": 42.195,
+        "deniiiv_off": 0,
+        "deniiiv_negatiiif_off": 0,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-05-12",
+        "start_hour": "8"
     }
 }
