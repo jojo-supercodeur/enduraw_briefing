@@ -633,6 +633,79 @@
                 "previous_place": 1
             }
         
+        },
+
+
+
+        "adrienbono": {
+            "infos": {
+                "nom": "Bono",
+                "prenom": "Adrien",
+                "birthdate": "faaake 15/01/1989",
+                "cote": 925,
+                "nationality": "New Zealand",
+                "Team": "Adidas Terrex",
+                "personalized_message":"Good luck for this race Ruth, I'm sure you'll destroy it",
+                "best_nutrition_brand":"Energy Spring",
+                "energy_consumption":70, 
+                "sexe":"F",
+                "poids":49,     
+                "taille":170     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Transvulcania",
+                "profil_split": 108,
+                "objectif_heure": 8,
+                "objectif_minute": 4,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            }
+        
+        }
+
+
+        ,
+
+
+
+        "alodieboissonnet": {
+            "infos": {
+                "nom": "Boissonnet",
+                "prenom": "Alodie",
+                "birthdate": "15/01/1998",
+                "cote": 650,
+                "nationality": "France",
+                "Team": "l'X",
+                "personalized_message":"Good luck for this race Alodie, et bonne semaine au ski",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":70, 
+                "sexe":"F",
+                "poids":49,     
+                "taille":162     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Paris Marathon",
+                "profil_split": 108,
+                "objectif_heure": 3,
+                "objectif_minute": 40,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 18000
+            }
+        
         }
 
 
