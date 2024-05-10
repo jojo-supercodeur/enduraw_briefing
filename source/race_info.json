@@ -453,11 +453,12 @@
         },
         "longueur_off": 82,
         "deniiiv_off": 1245,
+        "deniiiv_negatiiif_off": 1245,
         "record_feminin": "12h54",
         "record_masculin": "11h03",
         "date_de_creation": 1980,
         "zoom_de_la_carte": 12,
-        "start_time": "2024-04-01"
+        "start_time": "2024-05-12"
     },
     "Championnat de France de Trail Long": {
         "ravitos": {

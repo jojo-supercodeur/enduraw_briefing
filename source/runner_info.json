@@ -4,6 +4,7 @@
             "nom": "Bascon",
             "prenom": "Maxime",
             "age": 26,
+            "birthdate":"17/07/1997",
             "cote": 610,
             "nationality": "France",
             "Team": "Les Ratons Laveurs",
