@@ -741,5 +741,41 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-05-12",
         "start_hour": "8"
+    },
+
+
+    "European championship half marathon": {
+        "ravitos": {
+            "1": {
+                "nom": "5k",
+                "dist": 5
+            },
+            "2": {
+                "nom": "10k",
+                "dist": 10
+            },
+            "3": {
+                "nom": "15k",
+                "dist": 15
+            },
+            "4": {
+                "nom": "20k",
+                "dist": 20
+            },
+            "5": {
+                "nom": "finish",
+                "dist": 21.1
+            
+            }
+        },
+        "longueur_off": 21.1,
+        "deniiiv_off": 20,
+        "deniiiv_negatiiif_off": 20,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-06-09",
+        "start_hour": "8"
     }
 }

@@ -1,0 +1,755 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>📈 Enduraw Race Briefing Route</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="79d039d4-edbb-4a30-be7a-cbc9a30cd2f6" class="page sans"><header><div class="page-header-icon undefined"><img class="icon" src="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/logo_enduraw%201.png"/></div><h1 class="page-title">📈 Enduraw Race Briefing Route</h1><p class="page-description"></p></header><div class="page-body"><p id="095bc0a0-2037-48f9-8c2a-25ea2ccd5ed4" class="">
+</p><p id="d8b7423e-e4ba-4b0f-ae99-aa4ed3c97bc9" class="">🏃🏼‍♂️ <strong>Race Briefing for {{prenom}} for {{nom_de_la_course}} </strong>🏃‍♀️</p><nav id="1385e7f1-a50b-4ccf-8b94-5d0b1cd54aef" class="block-color-gray table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#515d8a10-ad8e-437f-9ddf-f8016c8fc784">1. 🏃🏼‍♂️- Runner info</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#166fa791-49b4-40bc-b7fb-9bbd0b6fea30">2. 🏔- Race Analysis</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#aafe34af-91e3-4e0a-8c97-aaf61825a53a">3. ⛈ - Weather conditions </a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#bcdcc865-1894-469e-a8ee-b46d7403d4d5">4. 📈 - Pacing strategy </a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#edfb00d6-79a0-478e-8484-ccba6acb6b2f">5. ⏱ - Pacing plan</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#eba5bec2-ddce-4ebb-bbe8-5a68494016ac">6. 🥤🍟 - Feeding - Hydration </a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#de0ba1b0-3429-4d4e-8dfe-eed2ce6959f7">7. ⚔️ - Competitor analysis</a></div></nav><p id="e831289b-018e-4d12-8799-d3f615c2f7e0" class="">
+</p><h1 id="515d8a10-ad8e-437f-9ddf-f8016c8fc784" class="">1. 🏃🏼‍♂️- Runner info</h1><p id="e8687f08-b519-4a9d-b6a8-e40415d950c4" class="">
+</p><p id="d18e767f-d424-4142-8aa3-d2388fe7a2dd" class="">
+</p><p id="8bbc1ce6-c582-4e15-ad0b-5709fc475756" class="">
+</p><p id="f234ff3a-8e13-47f4-bfef-5e2c63bfec65" class="">
+</p><div id="063bab90-c18f-46ef-ba58-b755cca0a8c1" class="column-list"><div id="72b30215-2ed7-4184-90cb-6e931ab2fd03" style="width:50%" class="column"><table id="22e043c7-b49c-4e8c-885b-a29e9a3a2a24" class="simple-table"><tbody><tr id="fa0137f2-91d0-4ca2-837f-fd1a360e7f6c"><td id="DzKX" class="">Informations</td><td id="Y`^V" class="">Value</td></tr><tr id="c1fce879-50c0-4a9d-b709-592c5abdd6d7"><td id="DzKX" class="">Name</td><td id="Y`^V" class="">{{name}}</td></tr><tr id="299a5a5f-51a1-4e73-b545-9b52399f4d49"><td id="DzKX" class="">First Name</td><td id="Y`^V" class="">{{prenom}}</td></tr><tr id="31a16866-a61a-4d22-9feb-9b300a81c742"><td id="DzKX" class="">Nationality</td><td id="Y`^V" class="">{{nationality}}</td></tr><tr id="7640520c-7b83-44b3-9f78-ad6e5de53f23"><td id="DzKX" class="">Age</td><td id="Y`^V" class="">{{age}}</td></tr><tr id="c0997d93-35b4-41ad-8e92-07d10483f797"><td id="DzKX" class="">Index WA</td><td id="Y`^V" class="">{{cote}}</td></tr><tr id="34de9070-b32f-4089-ae2a-5b23cf1e2f44"><td id="DzKX" class="">Team</td><td id="Y`^V" class="">{{team}}</td></tr></tbody></table></div><div id="c6f22c76-9060-43c3-84d4-3c6c9542a30a" style="width:50%" class="column"><p id="dc0f2afc-07e8-49cb-b256-7e9dfc9d9982" class="">{{placeholder_profile_picture}}</p><p id="c3587217-a8ee-4825-b87c-34b5274319af" class="">
+</p></div></div><p id="1a31a368-f33d-4f86-a76f-86ea16db8e6e" class="">{{prenom}}, here is your race briefing for <strong>{{nom_de_la_course}}</strong>, we wish you a great performance for this race, best of luck!</p><p id="0c79ce70-808a-4022-a834-f56c4f056e06" class="">
+</p><p id="8366f4db-25d7-40d9-8915-9fb18e47bcc8" class="">
+</p><p id="3d0febaa-d333-43f3-8a1e-57679dfe91f9" class="">{{prenom}}, <a href="https://www.instagram.com/enduraw.data/">Enduraw</a> estimated your finish time <strong>at {{total_time}}.</strong> With this time you would have finished in <strong>position {{athlete_place}}</strong> last year </p><p id="a808dbf4-565c-460e-a639-4c097bc7d4f8" class="">
+</p><p id="176405e4-d032-42b8-8751-e1ac77f02bf2" class="">{{personalized_message}}</p><p id="7ef5f093-95fc-41cd-8083-639054f09637" class="">
+</p><div id="7f4f24b8-12b7-483f-a7d4-2d5c0f8b0d90" class="column-list"><div id="354298a1-d50d-47a0-bf38-27d5d931282d" style="width:50%" class="column"><figure id="1d5ec9e5-58b2-418d-8385-7c6721550d96" class="image" style="text-align:left"><a href="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/jimremi.png"><img style="width:576px" src="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/jimremi.png"/></a></figure></div><div id="f74c756b-5247-4ff5-8789-d6880aea1c3b" style="width:50%" class="column"><figure id="e270678d-d9f5-419d-9a0e-5ad3f00d8964" class="image" style="text-align:right"><a href="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/vap.png"><img style="width:432px" src="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/vap.png"/></a></figure></div></div><p id="15574816-c4d1-4c80-a7ac-57bda2f97bc6" class="">
+</p><p id="205eee57-f236-4836-a165-d2a285cea74c" class="">The <strong>Runner Ability Heat Map</strong> defines your runner profile. By analyzing your <mark class="highlight-orange">Strava account</mark> and previous races, we can see if you are strong on climbs or fast on the flat. So 🏔 or 💨</p><p id="9e3f41b1-2cb5-4148-b58b-2f7e20161e4b" class="">
+</p><hr id="ff0322a5-17a4-4f1f-a22d-0ed474214f04"/><hr id="84db4479-4de8-472b-b678-3e110770d4c5"/><h1 id="166fa791-49b4-40bc-b7fb-9bbd0b6fea30" class="">2. 🏔- Race Analysis</h1><p id="cc824430-6951-429d-912c-2d295c42e0ad" class="">
+</p><div id="1c59fde5-45ec-4894-acf5-c1538041adc9" class="column-list"><div id="4e99a7bc-371a-4dbc-93b1-f233b0b71e46" style="width:50%" class="column"><table id="9d14905c-df1e-4cc1-8452-474926de7c93" class="simple-table"><tbody><tr id="1fb736ed-2b15-4545-8321-a965f0084a0f"><td id="UV`Q" class="" style="width:104.33087158203125px"><strong>Parameters</strong></td><td id="TumR" class="" style="width:104.33087158203125px"><strong>Value</strong></td><td id="}YEi" class="" style="width:135.3198471069336px"><strong>Unit</strong></td></tr><tr id="3e638312-d2df-4f2d-81c1-9ef7ca2e6ac4"><td id="UV`Q" class="" style="width:104.33087158203125px">Distance</td><td id="TumR" class="" style="width:104.33087158203125px">{{total_distance}}</td><td id="}YEi" class="" style="width:135.3198471069336px">km</td></tr><tr id="4bfa1a77-2fa4-49af-8463-e63ab6a85983"><td id="UV`Q" class="" style="width:104.33087158203125px">Elevation Gain</td><td id="TumR" class="" style="width:104.33087158203125px">{{total_uphill}}</td><td id="}YEi" class="" style="width:135.3198471069336px">m</td></tr><tr id="a02805f2-c0aa-43a0-8571-36f68984a77f"><td id="UV`Q" class="" style="width:104.33087158203125px">Elevation Loss</td><td id="TumR" class="" style="width:104.33087158203125px">{{total_downhill}}</td><td id="}YEi" class="" style="width:135.3198471069336px">m</td></tr><tr id="0b69863d-444b-4f61-9e80-b7618a3e3966"><td id="UV`Q" class="" style="width:104.33087158203125px">Max altitude</td><td id="TumR" class="" style="width:104.33087158203125px">{{max_altitude}}</td><td id="}YEi" class="" style="width:135.3198471069336px">m</td></tr><tr id="35171eac-3e19-40ee-8715-d538fc165f8d"><td id="UV`Q" class="" style="width:104.33087158203125px">Min altitude</td><td id="TumR" class="" style="width:104.33087158203125px">{{min_altitude}}</td><td id="}YEi" class="" style="width:135.3198471069336px">m</td></tr><tr id="8595099f-7360-462a-8660-acc4227478b2"><td id="UV`Q" class="" style="width:104.33087158203125px">Avg altitude</td><td id="TumR" class="" style="width:104.33087158203125px">{{average_altitude}}</td><td id="}YEi" class="" style="width:135.3198471069336px">m</td></tr><tr id="c2dde3e9-f694-420f-be2f-ddba2b4683b6"><td id="UV`Q" class="" style="width:104.33087158203125px">distance above {{threshold}}%</td><td id="TumR" class="" style="width:104.33087158203125px">{{distance_above}}</td><td id="}YEi" class="" style="width:135.3198471069336px">km</td></tr></tbody></table></div><div id="fae976ce-6246-4830-9004-fd5eae43752e" style="width:49.99999999999999%" class="column"><p id="d5030f6f-d490-4806-9774-d21bdce5dc60" class="">{{logo_race}}</p><p id="61d79e41-0b74-4a64-8845-18dd3afe99cb" class="">
+</p></div></div><p id="015fff89-6e21-4fd1-bc5f-67805836721f" class="">
+</p><div id="af67dd34-a518-43c0-a38a-61b56b01bf36" class="column-list"><div id="dcbf7d59-3084-4f5c-98b1-59aef924dc64" style="width:50%" class="column"><p id="7d7891fc-5542-48a4-b33a-10d06dadc8fd" class="">{{elevation_profile2}}</p><p id="9e4f267b-50bd-4202-9f7e-3f20cf409e9d" class="">
+</p><p id="7ecd1115-de1a-4703-b9d0-37f85a4f7683" class="">
+</p><p id="2fb67e9b-b435-4048-bab1-961de67f9704" class="">
+</p><p id="4fdcd726-995d-45c1-ba3c-bbb4b4d4002c" class="">
+</p></div><div id="bcb58f0b-b4f8-4648-a7ff-6275f61bb8cf" style="width:50%" class="column"><p id="96b9ba82-c8de-447e-9fe7-91ce3d33a78c" class="">On the <mark class="highlight-red">red parts</mark>, the gradient is higher than 4%, </p><p id="75ff21a4-dc05-48ec-b9a2-59b624c39f53" class="">On the <mark class="highlight-gray">grey areas</mark>, the gradient is higher than 1%</p><p id="78f5e733-fa6e-44af-a01b-c9f66555491b" class="">
+</p></div></div><div id="888d2ec1-a75e-4603-901d-9ba86aaec9ee" class="column-list"><div id="c72587d2-6f35-4829-a967-be375ba113e3" style="width:50%" class="column"><p id="fe52a9af-f78d-493e-b82f-7fb4fe79d26e" class="">
+</p></div><div id="cf3d5a22-b9b6-473c-ac54-e9df52ca0127" style="width:50%" class="column"><p id="b92e4fb3-4fe7-457e-a12d-844f5c4f50c4" class="">You can use your mouse to navigate around the profile and drill down into the elevation.</p></div></div><p id="aa1eacf7-3482-4ae7-829a-a4b14b1987ae" class="">
+</p><p id="82523ec4-8f50-4d7a-a18f-801cbdc5c962" class="">((interactive_gradient))</p><p id="a6c45fc0-207f-4cbb-99b4-3d8e228ae3f0" class="">
+</p><p id="d5d51180-501d-4481-a492-9d87be1ae26e" class="">((3D_viz))</p><p id="b7bcd98e-4063-4a22-8b84-a66a03f541a8" class="">
+</p><p id="fc648de4-9555-4c02-9bdf-3bf59395cf29" class="">
+</p><p id="69624f7a-08ca-4d9d-8a8e-3e35d1149524" class="">{{race_bar2}}</p><p id="3474995c-1f9f-41f7-bcd8-dfcfeaad785e" class="">{{race_bar_elev2}}</p><p id="241799af-2fe9-4b06-909f-e73bdd9abba6" class="">{{graphjim3}}</p><p id="cb89a3c9-e83b-4c6d-8687-1855ab3631bd" class="">
+</p><p id="70282233-356c-440f-a646-73025e15df92" class=""><strong>Given our analysis</strong> : </p><ul id="4ed9a68c-1d1d-40ee-baa7-4844ba1c77a3" class="bulleted-list"><li style="list-style-type:disc">⛰️ the elevation will cost you  {{secondes_perdues_elevation}} seconds</li></ul><p id="faa579ac-576e-4a02-8e9c-aed5c8d3272d" class="">
+</p><p id="db99353d-07b7-42b9-ac85-b640bcb78217" class=""><strong>Analysis of the main parts of the race</strong></p><p id="7df253a2-6185-4b58-9a63-85e1593f1ed9" class="">
+</p><ul id="c46f0d40-a236-4931-a8d9-ae939ccfff17" class="bulleted-list"><li style="list-style-type:disc">There are no remarkable climbs here. </li></ul><p id="03daa038-d6de-45e4-a277-77a4143b8298" class="">Would you be interested in a closer look at the first and last kilometers (type of surface, positioning, etc.)?</p><p id="1f0014d5-37d2-4f5f-b58c-65c7ed242c12" class="">
+</p><p id="375a1aa6-e7a5-44d7-a2b2-95fea63e0355" class="">
+</p><p id="b97638ec-a813-4325-9f0c-b0223d24bb03" class="">
+</p><hr id="40d7b228-f3ab-4e68-943f-0ed5d1f81dd9"/><hr id="9e5b8c78-9559-4994-a360-587db4020406"/><h1 id="aafe34af-91e3-4e0a-8c97-aaf61825a53a" class="">3. ⛈ - Weather conditions </h1><p id="99f24ff2-52a9-41c9-bb21-f4da07f00ee1" class=""><em>(updated 24 hours before the race)</em></p><p id="6af47353-5d05-4c96-a081-9631a5b04f37" class="">
+</p><div id="29f38b57-84d4-488f-89df-08f7d7d92b8e" class="column-list"><div id="62f0680e-b2cd-4085-b486-61dcafb5a982" style="width:62.5%" class="column"><table id="0990a405-46c1-4dcc-b535-4633e57a5a8d" class="simple-table"><tbody><tr id="3039b8dc-25b1-49b6-8249-88e4409418a9"><td id="JIjT" class="" style="width:125.3198471069336px"><strong>Parameters</strong></td><td id="kOoB" class="" style="width:130.328125px"><strong>Value</strong></td><td id="Ox?M" class="" style="width:116.328125px"><strong>Unit</strong></td></tr><tr id="990a10a5-149e-4c65-bded-7cf6fb37bcd4"><td id="JIjT" class="" style="width:125.3198471069336px">Max temperature</td><td id="kOoB" class="" style="width:130.328125px">{{temp_max}}</td><td id="Ox?M" class="" style="width:116.328125px">°C</td></tr><tr id="2f1d4cac-30f7-476b-b4c9-8617b4757090"><td id="JIjT" class="" style="width:125.3198471069336px">Min Temperature</td><td id="kOoB" class="" style="width:130.328125px">{{temp_min}}</td><td id="Ox?M" class="" style="width:116.328125px">°C</td></tr><tr id="451247fe-8425-44f5-901b-c16d2417c4a9"><td id="JIjT" class="" style="width:125.3198471069336px">Average Temperature</td><td id="kOoB" class="" style="width:130.328125px">{{temp_avg}}</td><td id="Ox?M" class="" style="width:116.328125px">°C</td></tr><tr id="0da95c36-2131-4cbb-a5b2-20f72012e508"><td id="JIjT" class="" style="width:125.3198471069336px">Wind speed (at departure)</td><td id="kOoB" class="" style="width:130.328125px">{{wind_speed1}}</td><td id="Ox?M" class="" style="width:116.328125px">km/h</td></tr><tr id="fd523d51-1c10-42a9-8487-caf452c3e038"><td id="JIjT" class="" style="width:125.3198471069336px">Wind direction (at departure)</td><td id="kOoB" class="" style="width:130.328125px">{{wind_departure}}</td><td id="Ox?M" class="" style="width:116.328125px">°</td></tr><tr id="7411918d-2f20-4cc1-82e9-f84c9e52854a"><td id="JIjT" class="" style="width:125.3198471069336px">Risk of rain</td><td id="kOoB" class="" style="width:130.328125px">{{risk_of_rain1}}</td><td id="Ox?M" class="" style="width:116.328125px">/</td></tr></tbody></table><p id="b1e67c3a-e2b7-4ec1-86aa-c33d83d35ed4" class="">
+</p></div><div id="ae9327d7-44f0-4205-86fa-c44cbbdcbb4f" style="width:37.5%" class="column"><p id="75156db6-2128-46b6-84dc-e57ca55fc746" class="">{{rose_des_vents}}</p></div></div><p id="6c97567e-6bbc-41a7-8b61-5496f9eed71f" class="">Here you have the map of the race. You can <strong>zoom in</strong> to explore and visualize the trace !</p><p id="ffeb2b54-a9be-486e-9782-866719eefabf" class="">
+</p><p id="1753a289-818f-4736-acec-0b983dc860b5" class="">((placeholder_carte_avec_vent))                                    </p><p id="6f56168b-c6ae-40ef-8d58-c6ddf219c4a4" class="">
+</p><p id="8ed97157-9e81-41ce-b8dd-7c04a65f5c30" class="">On this graph we can see when the wind will help you </p><p id="3e014656-913f-4a7d-8942-9f91f12b3492" class="">((placeholder wind help))</p><p id="215c43c0-3da6-4eb3-a3fd-d6fdc2255f90" class="">
+</p><p id="d03a6d6a-2c71-4137-abe6-a9c698571584" class=""><strong>Given our analysis</strong> : </p><ul id="6146312f-16c7-41d2-af63-6da161a4e32e" class="bulleted-list"><li style="list-style-type:disc">☀️ the heat will cost you  {{secondes_perdues}} seconds </li></ul><p id="923ae9f0-feb1-4e26-808b-f5c6eb0dfa50" class="">
+</p><p id="079fa527-5e1e-4d04-a1df-0921fb10740b" class="">
+</p><p id="50c3c760-ff20-44b9-86ce-43fd9a498303" class="">
+</p><hr id="e1ff8111-0bb2-4cf7-8809-c25517a373b5"/><hr id="962fdf76-de39-4f15-a702-82f2b17c3586"/><p id="aeaeb4fa-d50c-4ef0-bb2e-d015cc054635" class="">
+</p><h1 id="bcdcc865-1894-469e-a8ee-b46d7403d4d5" class="">4. 📈 - Pacing strategy </h1><figure id="a2da1e3f-1c68-4d7e-9776-5175187222a6" class="image"><a href="https://media4.giphy.com/media/ZYr1xhbD2EEu0YaukN/giphy.gif?cid=7941fdc6npby54f2ytpcbcqnlbkvzh6euhtrxphdc4c0371f&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"><img style="width:336px" src="https://media4.giphy.com/media/ZYr1xhbD2EEu0YaukN/giphy.gif?cid=7941fdc6npby54f2ytpcbcqnlbkvzh6euhtrxphdc4c0371f&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g"/></a></figure><p id="686c230d-300d-4f9d-a98f-b2e2638074aa" class=""><strong>Your pacing plan is customized according to 7 points:</strong></p><p id="09061112-d210-4047-bcfc-d75939863267" class="">🥇 <strong>Your level</strong> (finish time)</p><p id="922c0f1b-9a74-44d9-8970-5a4eb8ed59bb" class="">⛰️ <strong>Your</strong> <strong>positive and negative elevation gain</strong> (the GAP we talked about earlier) </p><p id="750777f2-1c1a-47b5-b494-a959479c1b85" class="">🛠️ <strong>The</strong> <strong>technical nature</strong> of the race</p><p id="9d878906-d6f0-4211-aba1-3cc739ec2c00" class="">🌬️ <strong>The wind</strong> (whether it&#x27;s head-on or not)</p><p id="cdb16913-6615-4593-80cf-a2f9e3ca30de" class="">🌡️ <strong>The temperature</strong> at each points along the route</p><p id="d436f055-fbe9-4301-9e9a-cc5020dec4c7" class="">⏱️ Your <strong>pacing strategy</strong>, in this case a slight negative split of -8%.</p><p id="9b1be2ba-7260-4cee-9430-105ff5faae98" class="">⏳ The <strong>natural drift</strong> at the end of the race, which depends on your index.</p><p id="cc7ed65e-2083-4eb3-8acd-81c46dac025b" class="">
+</p><p id="886f1b53-42aa-4097-9b57-350f4a80e52e" class="">
+</p><p id="56dcdc6b-5dd0-4ff8-970b-17d9a578d189" class="">This will give you crossing points to respect at aid stations (you can also find a km-by-km plan on the next page)</p><p id="909e56e3-ffea-4ef8-b670-c6c38f709e2f" class="">
+</p><p id="6f1817a7-178f-46fd-a86a-ea8254562236" class="">{{pacing_plan_aid_station}}</p><p id="4aa840ac-e16b-4311-96b8-287b23e5ff89" class="">
+</p><p id="aea045d7-278f-49cb-9366-d65bd3e52d23" class="">🔜 With the analysis of your races and training (with our <mark class="highlight-orange"><a href="https://www.joseph-mestrallet.com/strava-integration">Strava integration</a></mark>) we can even propose an ultra-tailor-made plan to go after marginal gains!</p><p id="6e82bdeb-4ac0-463b-825f-7511cafc9a1e" class="">
+</p><p id="05ff3dc5-bef4-4479-9cd5-96a8fd3c865e" class="">
+</p><p id="7d561ef3-34fa-468a-9fbc-bfe2922b692e" class="">
+</p><hr id="8b464007-8f3b-47d0-ae7b-208173b964b4"/><hr id="af312ed5-6b2d-48ba-affb-4f9e94183793"/><p id="3003a985-4af6-47c9-ac59-43ff6a581691" class="">
+</p><p id="72b0c59a-46e6-422f-afef-d2c57a87fcda" class="">
+</p><p id="72b6a49c-5ef7-4701-a5e7-9d32c52c69a7" class="">
+</p><h1 id="edfb00d6-79a0-478e-8484-ccba6acb6b2f" class="">5. ⏱ - Pacing plan</h1><p id="9c997243-4ced-438e-a68b-bc03335f642f" class="">
+</p><p id="fa238ffe-63ab-488a-9082-428401346fbf" class="">🎯 Here is your pacing plan km by km for the {{nom_de_la_course}}</p><p id="66e9e0b0-27dd-4904-a4be-1794a215df33" class="">Click here to download the file directly onto your Garmin for a real time pace management (available soon)</p><p id="86497487-d5a8-4c70-8154-06aafc974d1c" class="">
+</p><p id="7c029b64-48ec-4cef-b2d2-b8c5fb946b74" class="">
+</p><ul id="ea3b45f8-94a2-4416-9997-5b7c9daac747" class="toggle"><li><details open=""><summary>Pacing plan 👇👇</summary><p id="11a44b30-539c-4ab5-8f29-ad53ff17d5e3" class="">{{pacing_plan}}</p></details></li></ul><p id="b9f49e0f-be1b-4b44-a96f-1aecf9818fa0" class="">
+</p><p id="76049db7-5d46-42ec-ab69-a299a61d31a5" class=""><strong>TOTAL RUNNING TIME : {{total_time}}</strong></p><p id="cce3c737-a289-4303-8da3-df74f9842910" class="">
+</p><hr id="cb095db1-401f-4072-a1ff-55b204f0662d"/><hr id="b43b3474-0583-40ea-9130-9f3c677c8d71"/><p id="e295431a-99cd-4c57-aed8-b28d1eb00632" class="">
+</p><p id="60691086-47b6-4a0b-beb5-59a84a9564da" class="">
+</p><p id="775ebe18-703a-46e4-8663-214d57c8c6f5" class="">
+</p><h1 id="eba5bec2-ddce-4ebb-bbe8-5a68494016ac" class="">6. 🥤🍟 - Feeding - Hydration </h1><p id="3ed35783-2b45-4962-97f1-153fa6fa6659" class="">
+</p><p id="630fea08-2d63-4439-94a1-650568603d69" class="">Nutrition and hydration are crucial to the success of a race, so here&#x27;s a <strong>nutrition plan</strong> for the {{nom_de_la_course}}. </p><p id="b05520ca-0450-46f5-8b53-568e75199708" class="">At each aid station, this is the <strong>amount of nutrition</strong> you should have eaten and drunk.</p><p id="24a22351-18ef-433f-9e25-18bbac353eb2" class=""><br/>We&#x27;ve taken the basic portions from your favorite brand {{nutrition_brand}}. Nutrition is very individual, so we&#x27;ve estimated your <br/><mark class="highlight-orange_background"><strong>average carbohydrate intake at {{energy_consumption}} grams per hour</strong></mark> based on your gender, height, age, and weight. </p><p id="9522b0a9-1ea0-4291-815e-aab449205292" class="">
+</p><p id="dd7dacd9-6ffe-4acc-84a3-3ff5f6fcc75d" class=""><strong>TOTAL CARB INGESTION : {{total_carb_ingestion}} (g)</strong></p><p id="b1fdecba-6e40-4105-9ef7-efe29c56984d" class=""><strong>TOTAL LIQUID INGESTION : {{total_liquid_ingestion}} (mL)</strong></p><p id="c6a367a7-44b3-4282-badc-ee8be85f9a88" class="">
+</p><p id="67855f4b-c71b-496f-9772-e6c986ab3715" class="">
+</p><p id="e892f274-6ec6-41d5-81b9-00a38fcf07ee" class="">{{nutrition_plan}}</p><p id="dcf4bc76-c60f-44c8-89a7-70458c0e7040" class="">
+</p><p id="576c7d57-ce85-41f4-91a3-a97f05db4908" class="">
+</p><p id="9bb66c02-7b51-4766-9531-364b31e3ff3e" class="">📈 For greater accuracy, it&#x27;s better to <strong>state your exact usual intake per hour</strong>. <br/>This can be determined by experience (what you&#x27;re used to, what worked well for you in the past) or by carrying out laboratory tests.<br/></p><p id="b31c84de-8933-4a5b-b36c-55d8b0c2a51f" class=""><br/>From the predicted heart rate for a given effort we can determine a more precise nutrition plan.<br/>For elite athletes, nutrition can be managed on the basis of heart rate in real time to ensure that intake is accurate to the nearest gram 🤏<br/></p><p id="89f819c0-fd99-4902-b0f1-10d51fc3de2a" class="">We can also determine the ideal concentration of your exercise drink to improve the nutrient transfer into the bloodstream. If you&#x27;re a <strong>&#x27;</strong><em><strong>salty sweater</strong></em><strong>&#x27;</strong> or if <strong>the temperature is high</strong>, you&#x27;ll <strong>need to lower the concentration.</strong></p><p id="3708a5c1-dcf0-4e60-a71c-42d2a77b63b1" class=""><strong>👑 Elite feature - Contact us if interested</strong></p><p id="a6f3e97c-fd54-45d3-a595-bb88104a0086" class="">
+</p><p id="a9a782e3-8cb8-4ac9-9820-561ce639b50c" class="">
+</p><p id="17027bcf-60ad-4495-ba6c-2901fabe14c5" class="">
+</p><hr id="04a7218c-01d6-48c4-a0d4-0e3154a85358"/><hr id="34f0ab9b-b7ad-4df8-8b04-79822ad20bf9"/><p id="7c72a855-c7f0-4dcf-8f14-8929ec33f600" class="">
+</p><p id="d80a70a7-c111-4e00-8118-91c94b31e6e5" class="">
+</p><p id="c3f15af0-0c73-465a-81dd-48153834ff57" class="">
+</p><h1 id="de0ba1b0-3429-4d4e-8dfe-eed2ce6959f7" class="">7. ⚔️ - Competitor analysis</h1><p id="222adf27-0746-4bc7-a3b5-21bda7d7d1eb" class="">
+</p><ul id="cc9f980e-15d0-4c08-93eb-414ca0e6575a" class="bulleted-list"><li style="list-style-type:disc">Help with strategy based on competitor profiles</li></ul><ul id="f751f4ed-2401-42bf-9fb0-fdc6bb5d3648" class="bulleted-list"><li style="list-style-type:disc">Putting you in touch to create pacing groups</li></ul><p id="2cb212f1-33fe-462e-a9af-a599bc697b31" class=""><strong>👑 Elite feature - Contact us if interested</strong></p><p id="f61fe7f1-8675-4ac5-a437-065027306c03" class="">
+</p><p id="016bb2d1-00ba-4cbb-b942-2c39205a1644" class="">
+</p><p id="dca8da9f-d120-4115-a467-d6e0932afd26" class="">
+</p><hr id="6f7ce9cb-09f9-4751-adde-6054e450083d"/><hr id="509ef27c-226b-42b6-a8c3-bb9cfcda02b6"/><p id="b486a808-4def-42bd-865f-82c30c6fa4f7" class="">
+</p><p id="5c81635b-fe3f-4b96-9379-aa31410ae948" class="">
+</p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="eee96041-dd6a-4c5e-8336-c916bf9f8ed4"><div style="font-size:1.5em"><img class="icon" src="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/logo_enduraw%202.png"/></div><div style="width:100%"><em>This race briefing has been proposed by </em><em><strong>Enduraw</strong></em><ul id="1fe9a947-6ef1-4c06-8830-e2c872f6cd4d" class="bulleted-list"><li style="list-style-type:disc"><em>Enduraw is a sports </em><em><strong>performance</strong></em><em> research laboratory.</em></li></ul><ul id="afc37262-90af-496a-a404-abe43e9ce234" class="bulleted-list"><li style="list-style-type:disc"><em>We believe </em><em><strong>data</strong></em><em> can help us visualize/understand/predict more </em><em><strong>accurately</strong></em><em>.</em></li></ul><ul id="9abd585c-9be4-484f-87bf-93b15edc47b4" class="bulleted-list"><li style="list-style-type:disc"><em>With Enduraw we turn </em><em><strong>raw</strong></em><em> data into </em><em><strong>relevant</strong></em><em> analyses.</em></li></ul></div></figure><p id="1f15a1aa-9496-4c8b-9dc2-f6847300be9e" class="">
+</p><figure id="e63a2b2d-c340-4ea8-8ef0-aab01863db36" class="image" style="text-align:center"><a href="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/logo_enduraw.png"><img style="width:288px" src="%F0%9F%93%88%20Enduraw%20Race%20Briefing%20Route%2079d039d4edbb4a30be7acbc9a30cd2f6/logo_enduraw.png"/></a></figure></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

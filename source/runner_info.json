@@ -617,12 +617,28 @@
                 "poids":49,     
                 "taille":170     
             },
-            "Race": {
+            "Race2": {
                 "template": "trail",
                 "course": "Transvulcania",
                 "profil_split": 108,
                 "objectif_heure": 8,
                 "objectif_minute": 4,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            },
+
+            "Race": {
+                "template": "trail",
+                "course": "UTMB",
+                "profil_split": 108,
+                "objectif_heure": 23,
+                "objectif_minute": 45,
                 "objectif_seconde": 0,
                 "threshold": 8,
                 "a_gradient": 0,
@@ -704,6 +720,44 @@
                 "a_vent": 0,
                 "a_temp": 1,
                 "previous_place": 18000
+            }
+        
+        },
+
+
+
+
+
+
+        "felixbour": {
+            "infos": {
+                "nom": "Bour",
+                "prenom": "Felix",
+                "birthdate": "25/03/1994",
+                "cote": 1214,
+                "nationality": "France",
+                "Team": "Asics",
+                "personalized_message":"Bon courage Felix, avec ta spé vitesse tu vas nous faire un finish fou",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":50, 
+                "sexe":"M",
+                "poids":59,     
+                "taille":184     
+            },
+            "Race": {
+                "template": "route",
+                "course": "European championship half marathon",
+                "profil_split": 108,
+                "objectif_heure": 1,
+                "objectif_minute": 2,
+                "objectif_seconde": 16,
+                "threshold": 8,
+                "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
             }
         
         }
