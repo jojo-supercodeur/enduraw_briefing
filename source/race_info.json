@@ -777,5 +777,36 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-06-09",
         "start_hour": "8"
+    },
+
+
+    
+
+
+    "Trail des Chibottes": {
+        "ravitos": {
+            "1": {
+                "nom": "Riou",
+                "dist": 7.3
+            },
+            "2": {
+                "nom": "Les chibottes",
+                "dist": 12.6
+            },
+            "3": {
+                "nom": "finish",
+                "dist": 17.9
+            
+            }
+        },
+        "longueur_off": 18,
+        "deniiiv_off": 600,
+        "deniiiv_negatiiif_off": 750,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-06-15",
+        "start_hour": "8"
     }
 }
