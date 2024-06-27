@@ -781,8 +781,6 @@
 
 
     
-
-
     "Trail des Chibottes": {
         "ravitos": {
             "1": {
@@ -808,5 +806,190 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-06-15",
         "start_hour": "8"
+    },
+
+
+    "Marathon du Mont Blanc": {
+        "ravitos": {
+            "1": {
+                "nom": "Le Tour",
+                "dist": 14
+            },
+            "2": {
+                "nom": "Vallorcine",
+                "dist": 23.5
+            },
+            "3": {
+                "nom": "Flégère",
+                "dist": 34
+            },
+            "4": {
+                "nom": "finish",
+                "dist": 42.5
+            }
+        },
+        "longueur_off": 42.5,
+        "deniiiv_off": 600,
+        "deniiiv_negatiiif_off": 750,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-06-30",
+        "start_hour": "7"
+    },
+
+
+    "90k du Mont Blanc": {
+        "ravitos": {
+            "1": {
+                "nom": "La Flégère",
+                "dist": 18
+            },
+            "2": {
+                "nom": "Le Buet",
+                "dist": 27
+            },
+            "3": {
+                "nom": "La villaz",
+                "dist": 38
+            },
+            "4": {
+                "nom": "Emosson",
+                "dist": 43
+            },
+            "5": {
+                "nom": "Le Chatelard",
+                "dist": 47
+            },
+            "6": {
+                "nom": "Le Tour",
+                "dist": 62
+            },
+            "7": {
+                "nom": "Les Bois",
+                "dist": 72
+            },
+            "8": {
+                "nom": "Montenvers",
+                "dist": 78
+            },
+            "9": {
+                "nom": "Plan de l'Aiguille",
+                "dist": 83
+            },
+            "10": {
+                "nom": "finish",
+                "dist": 92
+            }
+        },
+        "longueur_off": 92,
+        "deniiiv_off": 6330,
+        "deniiiv_negatiiif_off": 6330,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-06-28",
+        "start_hour": "4"
+    },
+
+
+   "Western States": {
+        "ravitos": {
+            "1": {
+                "nom": "Lyon Ridge",
+                "dist": 16.6
+            },
+            "2": {
+                "nom": "Red Star Ridge",
+                "dist": 25.4
+            },
+            "3": {
+                "nom": "Duncan Canyon",
+                "dist": 39.3
+            },
+            "4": {
+                "nom": "Robinson Flat",
+                "dist": 48.8
+            },
+            "5": {
+                "nom": "Miller's Defeat",
+                "dist": 55.4
+            },
+            "6": {
+                "nom": "Dusty Corners",
+                "dist": 61.2
+            },
+            "7": {
+                "nom": "Last Chance",
+                "dist": 69.7
+            },
+            "8": {
+                "nom": "Devil's Thumb",
+                "dist": 76.9
+            },
+            "9": {
+                "nom": "El Dorado Creek",
+                "dist": 85.1
+            },
+            "10": {
+                "nom": "Michigan Bluff",
+                "dist": 89.6
+            },
+            "11": {
+                "nom": "Foresthill",
+                "dist": 99.8
+            },
+            "12": {
+                "nom": "Dardanelles (Cal-1)",
+                "dist": 105.7
+            },
+            "13": {
+                "nom": "Peachstone (Cal-2)",
+                "dist": 113.8
+            },
+            "14": {
+                "nom": "Ford's Bar (Cal-3)",
+                "dist": 117.5
+            },
+            "15": {
+                "nom": "Rucky Chucky",
+                "dist": 125.5
+            },
+            "16": {
+                "nom": "Green Gate",
+                "dist": 128.5
+            },
+            "17": {
+                "nom": "Auburn Lake Trails",
+                "dist": 137.1
+            },
+            "18": {
+                "nom": "Quarry Rd",
+                "dist": 146.0
+            },
+            "19": {
+                "nom": "Pointed Rocks",
+                "dist": 151.7
+            },
+            "20": {
+                "nom": "Robie Point",
+                "dist": 159.2
+            },
+            "21": {
+                "nom": "finish",
+                "dist": 161.3
+            }
+        },
+        "longueur_off": 161.3,
+        "deniiiv_off": 5500,
+        "deniiiv_negatiiif_off": 6330,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 13,
+        "start_time": "2024-06-29",
+        "start_hour": "5"
     }
 }

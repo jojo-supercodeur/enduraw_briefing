@@ -15,7 +15,7 @@
             "poids":70,     
             "taille":170     
         },
-        "Race1": {
+        "Race": {
             "template": "trail",
             "course": "Grand Raid des Templiers",
             "profil_split": 108,
@@ -23,7 +23,7 @@
             "objectif_minute": 30,
             "objectif_seconde": 0,
             "threshold": 8,
-            "a_gradient": 0,
+            "a_gradient": 15,
             "a_split": 0,
             "a_drift": 0,
             "a_vent": 0,
@@ -60,7 +60,7 @@
             "a_temp": 0,
             "previous_place": 60
         },
-        "Race": {
+        "Race1": {
             "template": "trail",
             "course": "Trail des Chibottes",
             "profil_split": -8,
@@ -591,14 +591,14 @@
                 "cote": 925,
                 "nationality": "Sweden",
                 "Team": "Adidas Terrex",
-                "personalized_message":"Good luck for this race Petter, same race than 2022",
+                "personalized_message":"Good luck for this race Petter, I'm sure the 100 miles format is for you",
                 "best_nutrition_brand":"Maurten",
                 "energy_consumption":80, 
                 "sexe":"M",
                 "poids":59,     
                 "taille":170     
             },
-            "Race": {
+            "Race1": {
                 "template": "trail",
                 "course": "Transvulcania",
                 "profil_split": 108,
@@ -607,6 +607,21 @@
                 "objectif_seconde": 0,
                 "threshold": 8,
                 "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Western States",
+                "profil_split": 108,
+                "objectif_heure": 14,
+                "objectif_minute": 37,
+                "objectif_seconde": 26,
+                "threshold": 8,
+                "a_gradient": 1,
                 "a_split": 0,
                 "a_drift": 0,
                 "a_vent": 0,
@@ -768,6 +783,83 @@
                 "objectif_seconde": 16,
                 "threshold": 8,
                 "a_gradient": 0,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 1
+            }
+        
+        },
+
+
+
+
+
+
+
+
+        "fredtranchand": {
+            "infos": {
+                "nom": "Tranchand",
+                "prenom": "Fred",
+                "birthdate": "25/05/1988",
+                "cote": 899,
+                "nationality": "France",
+                "Team": "Scott",
+                "personalized_message":"Bonne course, Fred, t'es un local maintenant",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"M",
+                "poids":59,     
+                "taille":178     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Marathon du Mont Blanc",
+                "profil_split": 108,
+                "objectif_heure": 3,
+                "objectif_minute": 45,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 1,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 3
+            }
+        
+        },
+
+
+
+
+
+        "aureliendunandpallaz": {
+            "infos": {
+                "nom": "Dunand-Pallaz",
+                "prenom": "Aurélien",
+                "birthdate": "29/12/1992",
+                "cote": 896,
+                "nationality": "France",
+                "Team": "Compressport",
+                "personalized_message":"Come on Auré, une belle classique à accrocher à ton palmarès",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"M",
+                "poids":71,     
+                "taille":180     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "90k du Mont Blanc",
+                "profil_split": 108,
+                "objectif_heure": 10,
+                "objectif_minute": 32,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 15,
                 "a_split": 0,
                 "a_drift": 0,
                 "a_vent": 0,

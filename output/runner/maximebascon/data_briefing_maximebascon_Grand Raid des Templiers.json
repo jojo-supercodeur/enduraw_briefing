@@ -1,0 +1,85 @@
+{
+    "athlete": {
+        "username": "maximebascon",
+        "firstname": "Maxime",
+        "name": "Bascon",
+        "age": 26,
+        "cote": 610,
+        "team": "Les Ratons Laveurs",
+        "country": "France",
+        "coef_drift": "108%",
+        "personalized_message": "Good luck for this race, I'm 100% that you will feel strong"
+    },
+    "race": {
+        "name": "Grand Raid des Templiers",
+        "index": 0,
+        "race_type": "trail",
+        "aid_station": {},
+        "total_distance_brut": 80919.8,
+        "total_distance": 80900.0,
+        "coef_corrected_distance": 0.99975535,
+        "total_uphill_brut": 4421,
+        "total_uphill": 3500.0,
+        "coef_corrected_elevation_positive": 0.79167609,
+        "total_downhill_brut": 4381,
+        "total_downhill": 3500.0,
+        "coef_corrected_elevation_negative": 0.79890436,
+        "longest_ascent": 373,
+        "longest_descent": 246,
+        "max_altitude": 902.0,
+        "min_altitude": 362.0,
+        "average_altitude": 676.81
+    },
+    "weather": {
+        "wind": {},
+        "temp": {},
+        "rain": {
+            "risk_of_rain": "WIP"
+        }
+    },
+    "distance_above": 13,
+    "segments_above": [
+        [
+            7,
+            8
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            51,
+            51
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            76,
+            77
+        ]
+    ],
+    "threshold": 8,
+    "map": "ok"
+}
