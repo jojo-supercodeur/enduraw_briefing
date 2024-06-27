@@ -867,10 +867,79 @@
                 "previous_place": 1
             }
         
+        },
+
+
+
+
+
+        "camillefitoussi": {
+            "infos": {
+                "nom": "Fitoussi",
+                "prenom": "Camille",
+                "birthdate": "29/12/1987",
+                "cote": 1000,
+                "nationality": "France",
+                "Team": "pineur",
+                "personalized_message":"Une belle rando en amoureux, enjoy",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":80, 
+                "sexe":"F",
+                "poids":65,     
+                "taille":180     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Duo étoilé",
+                "profil_split": 108,
+                "objectif_heure": 5,
+                "objectif_minute": 30,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 15,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 536
+            }
+
+        },
+
+
+
+        "isadauger": {
+            "infos": {
+                "nom": "Dauger",
+                "prenom": "Isa",
+                "birthdate": "22/04/1997",
+                "cote": 1000,
+                "nationality": "France",
+                "Team": "Math et Isa",
+                "personalized_message":"Profite du coucher de soleil sur le plan de l'Aiguille",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":60, 
+                "sexe":"F",
+                "poids":50,     
+                "taille":163     
+            },
+            "Race": {
+                "template": "trail",
+                "course": "Duo étoilé",
+                "profil_split": 108,
+                "objectif_heure": 3,
+                "objectif_minute": 33,
+                "objectif_seconde": 0,
+                "threshold": 8,
+                "a_gradient": 15,
+                "a_split": 0,
+                "a_drift": 0,
+                "a_vent": 0,
+                "a_temp": 1,
+                "previous_place": 15
+            }
+
         }
 
-
-
-
-
 }
+

@@ -991,5 +991,40 @@
         "zoom_de_la_carte": 13,
         "start_time": "2024-06-29",
         "start_hour": "5"
+    },
+
+
+    "Duo étoilé": {
+        "ravitos": {
+            "1": {
+                "nom": "Bifurcation Caillet",
+                "dist": 4.8
+            },
+            "2": {
+                "nom": "Montenvers",
+                "dist": 7.7
+            },
+            "3": {
+                "nom": "Le signal",
+                "dist": 9.3
+            },
+            "4": {
+                "nom": "Plan de l'Aiguille",
+                "dist": 13.8
+            },
+            "5": {
+                "nom": "finish",
+                "dist": 21.5
+            }
+        },
+        "longueur_off": 21.5,
+        "deniiiv_off": 1450,
+        "deniiiv_negatiiif_off": 1450,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-06-29",
+        "start_hour": "19.5"
     }
 }
