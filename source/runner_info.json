@@ -585,8 +585,8 @@
 
         "petterengdahl": {
             "infos": {
-                "nom": "Petter",
-                "prenom": "Engdahl",
+                "nom": "Engdahl",
+                "prenom": "Petter",
                 "birthdate": "23/07/1994",
                 "cote": 925,
                 "nationality": "Sweden",
@@ -877,7 +877,7 @@
             "infos": {
                 "nom": "Fitoussi",
                 "prenom": "Camille",
-                "birthdate": "29/12/1987",
+                "birthdate": "04/04/1987",
                 "cote": 1000,
                 "nationality": "France",
                 "Team": "pineur",
