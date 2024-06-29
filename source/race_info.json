@@ -829,12 +829,12 @@
             }
         },
         "longueur_off": 42.5,
-        "deniiiv_off": 600,
-        "deniiiv_negatiiif_off": 750,
+        "deniiiv_off": 2450,
+        "deniiiv_negatiiif_off": 2450,
         "record_feminin": "02h11'31",
         "record_masculin": "2h01'35",
         "date_de_creation": 1980,
-        "zoom_de_la_carte": 12,
+        "zoom_de_la_carte": 13,
         "start_time": "2024-06-30",
         "start_hour": "7"
     },
