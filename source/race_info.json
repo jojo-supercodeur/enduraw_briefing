@@ -1026,5 +1026,41 @@
         "zoom_de_la_carte": 12,
         "start_time": "2024-06-29",
         "start_hour": "19.5"
+    },
+
+
+
+
+
+
+
+    "Restonica 33k": {
+        "ravitos": {
+            "1": {
+                "nom": "Padule",
+                "dist": 7.2
+            },
+            "2": {
+                "nom": "Boniacce",
+                "dist": 14.4
+            },
+            "3": {
+                "nom": "Alzu",
+                "dist": 20.1
+            },
+            "4": {
+                "nom": "finish",
+                "dist": 31.9
+            }
+        },
+        "longueur_off": 32.9,
+        "deniiiv_off": 2270,
+        "deniiiv_negatiiif_off": 2271,
+        "record_feminin": "02h11'31",
+        "record_masculin": "2h01'35",
+        "date_de_creation": 1980,
+        "zoom_de_la_carte": 12,
+        "start_time": "2024-07-06",
+        "start_hour": "6.5"
     }
 }

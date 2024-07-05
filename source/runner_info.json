@@ -15,7 +15,7 @@
             "poids":70,     
             "taille":170     
         },
-        "Race": {
+        "Race4": {
             "template": "trail",
             "course": "Grand Raid des Templiers",
             "profil_split": 108,
@@ -74,6 +74,21 @@
             "a_vent": 0,
             "a_temp": 0,
             "previous_place": 22
+        },
+        "Race": {
+            "template": "trail",
+            "course": "Restonica 33k",
+            "profil_split": 108,
+            "objectif_heure": 4,
+            "objectif_minute": 45,
+            "objectif_seconde": 0,
+            "threshold": 8,
+            "a_gradient": 15,
+            "a_split": 0,
+            "a_drift": 0,
+            "a_vent": 0,
+            "a_temp": 1,
+            "previous_place": 50
         }
     },
     "simonpriou": {
