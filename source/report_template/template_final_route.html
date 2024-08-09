@@ -488,14 +488,14 @@ blockquote {
 	margin-top: 0.25em;
 }
 
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
 .code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
 .serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
 .mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
 .pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
 .pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
 .pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
@@ -546,6 +546,9 @@ blockquote {
 .highlight-red {
 	color: rgba(212, 76, 71, 1);
 	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
 }
 .highlight-gray_background {
 	background: rgba(241, 241, 239, 1);
@@ -614,6 +617,10 @@ blockquote {
 	color: rgba(212, 76, 71, 1);
 	fill: rgba(212, 76, 71, 1);
 }
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
 .block-color-gray_background {
 	background: rgba(241, 241, 239, 1);
 }
@@ -647,7 +654,7 @@ blockquote {
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
 .select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
 .select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
-.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
 .select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
 .select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
 .select-value-color-red { background-color: rgba(255, 226, 221, 1); }
@@ -696,7 +703,7 @@ blockquote {
 </p><p id="d5d51180-501d-4481-a492-9d87be1ae26e" class="">((3D_viz))</p><p id="b7bcd98e-4063-4a22-8b84-a66a03f541a8" class="">
 </p><p id="fc648de4-9555-4c02-9bdf-3bf59395cf29" class="">
 </p><p id="69624f7a-08ca-4d9d-8a8e-3e35d1149524" class="">{{race_bar2}}</p><p id="3474995c-1f9f-41f7-bcd8-dfcfeaad785e" class="">{{race_bar_elev2}}</p><p id="241799af-2fe9-4b06-909f-e73bdd9abba6" class="">{{graphjim3}}</p><p id="cb89a3c9-e83b-4c6d-8687-1855ab3631bd" class="">
-</p><p id="70282233-356c-440f-a646-73025e15df92" class=""><strong>Given our analysis</strong> : </p><ul id="4ed9a68c-1d1d-40ee-baa7-4844ba1c77a3" class="bulleted-list"><li style="list-style-type:disc">⛰️ the elevation will cost you  7 seconds</li></ul><p id="faa579ac-576e-4a02-8e9c-aed5c8d3272d" class="">
+</p><p id="70282233-356c-440f-a646-73025e15df92" class=""><strong>Given our analysis</strong> : </p><ul id="4ed9a68c-1d1d-40ee-baa7-4844ba1c77a3" class="bulleted-list"><li style="list-style-type:disc">⛰️ the elevation will cost you 247 seconds</li></ul><p id="faa579ac-576e-4a02-8e9c-aed5c8d3272d" class="">
 </p><p id="db99353d-07b7-42b9-ac85-b640bcb78217" class=""><strong>Analysis of the main parts of the race</strong></p><p id="7df253a2-6185-4b58-9a63-85e1593f1ed9" class="">
 </p><ul id="c46f0d40-a236-4931-a8d9-ae939ccfff17" class="bulleted-list"><li style="list-style-type:disc">There are no remarkable climbs here. </li></ul><p id="03daa038-d6de-45e4-a277-77a4143b8298" class="">Would you be interested in a closer look at the first and last kilometers (type of surface, positioning, etc.)?</p><p id="1f0014d5-37d2-4f5f-b58c-65c7ed242c12" class="">
 </p><p id="375a1aa6-e7a5-44d7-a2b2-95fea63e0355" class="">
