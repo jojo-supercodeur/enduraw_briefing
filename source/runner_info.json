@@ -185,7 +185,7 @@
             "a_split": 0.5,
             "a_drift": 1,
             "a_vent": 0,
-            "a_temp": 0,
+            "a_temp": 1,
             "previous_place": 11
         }
     },
@@ -313,29 +313,34 @@
 
     "melinerollin": {
         "infos": {
-            "nom": "Quemener",
-            "prenom": "Anaïs",
-            "age": 25,
-            "cote": 382,
-            "nationality": "French",
+            "nom": "Rollin",
+            "prenom": "Meline",
+            "birthdate": "17/06/1998",
+            "cote": 1190,
+            "nationality": "France",
             "Team": "Kiprun",
-            "personalized_message":"Allez Méline ! tu vas chercher Manon"
+            "personalized_message":"Allez Méline ! fais toi plaisir et on croise les doigts pour ton dos",
+            "best_nutrition_brand":"Maurten",
+            "energy_consumption":73, 
+            "sexe":"F",
+            "poids":51,     
+            "taille":169 
         },
 
         "Race": {
-            "template": "marathon",
-            "course": "Sevilla marathon",
-            "profil_split": 100,
+            "template": "route",
+            "course": "Olympics Marathon",
+            "profil_split": 108,
             "objectif_heure": 2,
-            "objectif_minute": 25,
-            "objectif_seconde": 47,
+            "objectif_minute": 29,
+            "objectif_seconde": 54,
             "threshold": 0.5,
-            "a_gradient": 1,
+            "a_gradient": 10,
             "a_split": 0,
             "a_drift": 1,
             "a_vent": 1,
-            "a_temp": 0,
-            "previous_place": 9
+            "a_temp": 1,
+            "previous_place": 10
         }
     },
 
@@ -784,12 +789,12 @@
                 "Team": "Asics",
                 "personalized_message":"Bon courage Felix, avec ta spé vitesse tu vas nous faire un finish fou",
                 "best_nutrition_brand":"Maurten",
-                "energy_consumption":50, 
+                "energy_consumption":78, 
                 "sexe":"M",
                 "poids":59,     
                 "taille":184     
             },
-            "Race": {
+            "Race1": {
                 "template": "route",
                 "course": "European championship half marathon",
                 "profil_split": 108,
@@ -803,6 +808,21 @@
                 "a_vent": 0,
                 "a_temp": 1,
                 "previous_place": 1
+            },
+            "Race": {
+                "template": "route",
+                "course": "Olympics Marathon",
+                "profil_split": 108,
+                "objectif_heure": 2,
+                "objectif_minute": 14,
+                "objectif_seconde": 13,
+                "threshold": 0.5,
+                "a_gradient": 10,
+                "a_split": 0,
+                "a_drift": 1,
+                "a_vent": 1,
+                "a_temp": 1,
+                "previous_place": 10
             }
         
         },
