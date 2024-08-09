@@ -974,6 +974,44 @@
                 "previous_place": 15
             }
 
+        },
+
+
+
+
+
+
+        "nicolasnavarro": {
+            "infos": {
+                "nom": "Navarro",
+                "prenom": "Nicolas",
+                "birthdate": "12/03/1991",
+                "cote": 1229,
+                "nationality": "France",
+                "Team": "ON",
+                "personalized_message":"Bon courage Nico, tu nous fait la même remontada qu'à Tokyo",
+                "best_nutrition_brand":"Maurten",
+                "energy_consumption":78, 
+                "sexe":"M",
+                "poids":54,     
+                "taille":170     
+            },
+            "Race": {
+                "template": "route",
+                "course": "Olympics Marathon",
+                "profil_split": 108,
+                "objectif_heure": 2,
+                "objectif_minute": 14,
+                "objectif_seconde": 13,
+                "threshold": 0.5,
+                "a_gradient": 10,
+                "a_split": 0,
+                "a_drift": 1,
+                "a_vent": 1,
+                "a_temp": 1,
+                "previous_place": 10
+            }
+        
         }
 
 }
