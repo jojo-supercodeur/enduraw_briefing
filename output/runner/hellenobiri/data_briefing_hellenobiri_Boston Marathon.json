@@ -1,0 +1,77 @@
+{
+    "athlete": {
+        "username": "hellenobiri",
+        "firstname": "Hellen",
+        "name": "Obiri",
+        "age": 34,
+        "cote": 0,
+        "team": "ON",
+        "country": "Kenya",
+        "coef_drift": "-8%",
+        "personalized_message": "Good luck for this race, I'm 100% that you will finish strong and win the title"
+    },
+    "race": {
+        "name": "Boston Marathon",
+        "index": 0,
+        "race_type": "route",
+        "aid_station": {},
+        "total_distance_brut": 42545.15,
+        "total_distance": 42195.0,
+        "coef_corrected_distance": 0.99176997,
+        "total_uphill_brut": 327,
+        "total_uphill": 248.0,
+        "coef_corrected_elevation_positive": 0.75840979,
+        "total_downhill_brut": 472,
+        "total_downhill": 388.0,
+        "coef_corrected_elevation_negative": 0.8220339,
+        "longest_ascent": 29,
+        "longest_descent": 49,
+        "max_altitude": 162.0,
+        "min_altitude": 14.0,
+        "average_altitude": 60.84
+    },
+    "weather": {
+        "wind": {},
+        "temp": {},
+        "rain": {
+            "risk_of_rain": "WIP"
+        }
+    },
+    "distance_above": 2,
+    "segments_above": [
+        [
+            1,
+            1
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            7,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            31,
+            31
+        ],
+        [
+            33,
+            33
+        ]
+    ],
+    "threshold": 2,
+    "map": "ok"
+}
